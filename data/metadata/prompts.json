@@ -1,0 +1,72 @@
+{
+  "P1": {
+    "id": "P1",
+    "name": "Red Banarasi Silk Saree",
+    "category": "Ethnic Apparel & Fashion",
+    "prompt_text": "A lifestyle product photo of a red Banarasi silk saree draped elegantly on a mannequin, soft natural lighting, styled for an Instagram e-commerce ad, clean minimal background",
+    "use_case": "High-ticket Indian festive & bridal wear e-commerce listing / Instagram sponsored carousel",
+    "cultural_nuance": "Intricate gold zari brocade work (butis and pallu border), authentic Indian silk drape pleating, temple jewelry / pearl choker accents, polished wooden studio mannequin vs. eerie art doll",
+    "image_folder": "AI_generated_pictures/Prompt1",
+    "images": {
+      "Model A": "AI_generated_pictures/Prompt1/ChatGPT Image1(redsareeA).png",
+      "Model B": "AI_generated_pictures/Prompt1/Gemini_3.1Pro(img1)redsareeB.png",
+      "Model C": "AI_generated_pictures/Prompt1/Gemini_3.5-flash-lite(img1)redsareeC.png"
+    }
+  },
+  "P2": {
+    "id": "P2",
+    "name": "Stainless Steel Indian Tiffin Box",
+    "category": "Kitchenware & Daily Essentials",
+    "prompt_text": "A lifestyle product photo of a stainless steel Indian tiffin box (lunch box) with 3 compartments, placed on a wooden kitchen table with soft morning light, styled for an e-commerce listing",
+    "use_case": "D2C kitchenware / cookware catalog hero banner & feature demonstration listing",
+    "cultural_nuance": "Traditional Indian dabba structure (cylindrical stacked tiers with clamping carry handle), warm morning kitchen atmosphere, showcasing open containers with authentic home-cooked foods (dal, jeera rice, sabzi)",
+    "image_folder": "AI_generated_pictures/Prompt2",
+    "images": {
+      "Model A": "AI_generated_pictures/Prompt2/ChatGPT Image 2 tiffinA.png",
+      "Model B": "AI_generated_pictures/Prompt2/Gemini_3.1Pro(img2)tiffinB.png",
+      "Model C": "AI_generated_pictures/Prompt2/Gemini_3.5-flasg-lite(img2)tiffinC.png"
+    }
+  },
+  "P3": {
+    "id": "P3",
+    "name": "Festive Namkeen Snack Pouch",
+    "category": "Packaged Food & FMCG",
+    "prompt_text": "A lifestyle product photo of a colorful Indian namkeen snack pouch on a festive background with diyas and marigold flowers, styled for a Diwali sale Instagram ad",
+    "use_case": "FMCG / festive quick-commerce (Blinkit/Zepto) promo card & Diwali sales campaign",
+    "cultural_nuance": "Indian festive iconography (brass/clay diyas, yellow & orange marigold garlands, rangoli motifs), realistic snack pouch with Indian confectionery aesthetics (Haldiram / Bikaji style pouch, crispy sev/bhujia presentation)",
+    "image_folder": "AI_generated_pictures/Prompt4",
+    "images": {
+      "Model A": "AI_generated_pictures/Prompt4/ChatGPT Image 4 NamkeenA.png",
+      "Model B": "AI_generated_pictures/Prompt4/Gemini_3.1Pro(img4) NamkeenB.png",
+      "Model C": "AI_generated_pictures/Prompt4/Gemini_3.5-flash(img4) NamkeenC.png"
+    }
+  },
+  "P4": {
+    "id": "P4",
+    "name": "Beige Cotton Kurta Set",
+    "category": "Casual Ethnic Wear",
+    "prompt_text": "A lifestyle product photo of a beige cotton kurta set on a young Indian model standing against a plain studio background, natural lighting, styled for an e-commerce catalog",
+    "use_case": "Apparel marketplace catalog listing (Myntra/Ajio/Tata CLiQ) hero image",
+    "cultural_nuance": "Subtle Chikankari or hand-block embroidery, cotton-linen texture realism, authentic Indian female facial features and styling (delicate earrings, bindi, mojaris/juttis, gracefully draped dupatta)",
+    "image_folder": "AI_generated_pictures/Prompt3",
+    "images": {
+      "Model A": "AI_generated_pictures/Prompt3/ChatGPT Image 3 kurtaA.png",
+      "Model B": "AI_generated_pictures/Prompt3/Gemini_3.1Pro(img3) kurtaB.png",
+      "Model C": "AI_generated_pictures/Prompt3/Gemini_3.5-Flash(img3) kurtaC.png"
+    }
+  },
+  "P5": {
+    "id": "P5",
+    "name": "Navy Blue Nehru Jacket with Kurta",
+    "category": "Men's Festive & Occasion Wear",
+    "prompt_text": "A lifestyle product photo of a navy blue Nehru jacket paired with a white kurta, worn by a young Indian model standing in a warmly lit indoor setting with traditional decor in the background, styled for a wedding-season e-commerce catalog",
+    "use_case": "Men's festive wear (Manyavar/Tasva style) wedding collection catalog page",
+    "cultural_nuance": "Accurate distinction between a sleeveless Nehru jacket (sadri vest with mandarin collar) and a full-sleeved Bandhgala suit; pocket square, ornate buttons; warm haveli/wedding backdrop with brass lamps and floral garlands",
+    "image_folder": "AI_generated_pictures/Prompt5",
+    "images": {
+      "Model A": "AI_generated_pictures/Prompt5/ChatGPT Image5 NehruA.png",
+      "Model B": "AI_generated_pictures/Prompt5/Gemini_3.1Pro(img5)NehruB.png",
+      "Model C": "AI_generated_pictures/Prompt5/Gemini_3.5-flash(img5)NehruC.png"
+    }
+  }
+}

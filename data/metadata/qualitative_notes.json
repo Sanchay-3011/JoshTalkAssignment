@@ -1,0 +1,112 @@
+{
+  "P1": {
+    "title": "Red Banarasi Silk Saree on Mannequin",
+    "prompt_summary": "Red Banarasi silk saree draped on mannequin, Instagram ad style, soft lighting",
+    "observations": {
+      "Model A": {
+        "visual_strengths": "Outstanding fabric realism showing authentic silk sheen and rich golden zari floral brocade along the border and pallu. Clean studio mannequin with elegant jewelry (pearl choker necklace). Realistic jute rug, brass urli bowl with white flowers, and soft window daylight. Added native marketing copy ('Timeless Tradition - BANARASI SILK SAREE') giving it immediate turnkey utility as an Instagram ad.",
+        "visual_weaknesses": "Automatically introduced text overlay without an explicit request in the prompt, though the layout typography is tasteful and grammatically pristine.",
+        "aspect_ratio": "Portrait (1024x1536, 2:3 ratio) — optimal for mobile feed and e-commerce listings."
+      },
+      "Model B": {
+        "visual_strengths": "Vibrant red silk color with consistent floral embroidery pattern; wooden bench and small jhumkas in background add cultural touch.",
+        "visual_weaknesses": "Produced an unsolicited 3-panel triptych / composite image (three identical repeating mannequins side-by-side in widescreen 2816x1536). Unsuitable for single product listings or mobile feeds without manual cropping.",
+        "aspect_ratio": "Ultra-wide landscape (2816x1536) in 3-panel composite layout."
+      },
+      "Model C": {
+        "visual_strengths": "Sharp rendering of zari work on the saree border; warm wooden floorboards.",
+        "visual_weaknesses": "Used an articulated wooden artist dummy mannequin with exposed mechanical ball-and-socket arm joints and a hand resting awkwardly on the abdomen. Evaluators found this eerie/distracting, directly causing low visual quality scores (3.09) and low authenticity ratings.",
+        "aspect_ratio": "Widescreen landscape (2816x1536) leaving large empty wall space around the mannequin."
+      }
+    },
+    "takeaway": "Model A understands commercial ad composition and fabric physics far better than B and C. Model C committed a severe semantic error by picking a wooden drawing doll rather than a fashion retail mannequin."
+  },
+  "P2": {
+    "title": "Stainless Steel Indian Tiffin Box (3 Compartments)",
+    "prompt_summary": "Stainless steel 3-tier tiffin on wooden table, morning light, e-commerce listing",
+    "observations": {
+      "Model A": {
+        "visual_strengths": "Understood the functional requirement of e-commerce product listings: displays the main 3-tier locked container alongside 3 open bowls showcasing genuine Indian home-cooked meal items (yellow dal tadka with cilantro, jeera rice, aloo gobi). Added Milton-style branding and clean e-commerce feature callout badges ('Food Grade Stainless Steel', '3 Spacious Compartments', 'Leak Proof & Durable').",
+        "visual_weaknesses": "Unprompted feature badges and text overlays; however, they directly mirror real Amazon/Flipkart listing hero images.",
+        "aspect_ratio": "Square (1254x1254, 1:1) — standard Amazon/Flipkart main image format."
+      },
+      "Model B": {
+        "visual_strengths": "Warm, rustic kitchen morning ambiance; includes an authentic Indian stainless steel masala dabba (spice container) and a bowl of mixed vegetable pickle (achaar) on a block-printed cloth.",
+        "visual_weaknesses": "Missing the outer locking frame / clamp handle that holds a traditional 3-tier tiffin tower together during transit.",
+        "aspect_ratio": "Landscape (2752x1536) — requires cropping for square e-commerce catalog tiles."
+      },
+      "Model C": {
+        "visual_strengths": "Accurate steel reflections, realistic metallic handle and latch frame, morning light with steam rising from a ceramic mug.",
+        "visual_weaknesses": "The tiffin box is kept 100% closed, leaving evaluators unable to see the 3 compartments or inside capacity. While photographically pretty, it underperforms as a product listing that needs to demonstrate interior utility.",
+        "aspect_ratio": "Landscape (2816x1536) with significant dead space on the right."
+      }
+    },
+    "takeaway": "Commercial intent matters: Model A acted as a creative director designing a product listing page, whereas Model C treated it as a still-life photo, failing to show the core product value proposition."
+  },
+  "P3": {
+    "title": "Festive Namkeen Snack Pouch",
+    "prompt_summary": "Colorful Indian namkeen pouch, festive Diwali background with diyas and marigold flowers",
+    "observations": {
+      "Model A": {
+        "visual_strengths": "Flawless commercial packaging: realistic matte stand-up zip pouch with plausible Haldiram's-inspired branding ('INDIAN NAMKEEN BHUJIA') and certified vegetarian green dot mark. Heavy brass bowl filled with crunchy fried bhujia sev, roasted peanuts, and curry leaves. Glowing brass diyas, marigold flowers, and elegant 'Diwali Sale' campaign typography.",
+        "visual_weaknesses": "High visual density might feel busy for a minimalist brand, though fitting for Indian festive sales.",
+        "aspect_ratio": "Square (1254x1254, 1:1) — perfect for Instagram ad & quick-commerce."
+      },
+      "Model B": {
+        "visual_strengths": "Closest performance gap with Model A (scored 4.21 vs 4.61). Rendered a bright yellow-and-purple 'Festive Treats' namkeen pouch, green veg dot, brass bowl of mixture, earthen diyas, marigold garlands, and promotional banner 'DIWALI SALE! UP TO 40% OFF' with 'SHOP NOW' CTA.",
+        "visual_weaknesses": "Slightly more cartoonish illustration style on the pouch graphics compared to Model A's photorealistic commercial print.",
+        "aspect_ratio": "Square (2048x2048, 1:1)."
+      },
+      "Model C": {
+        "visual_strengths": "Includes authentic silver-foiled Kaju Katli sweets on a brass plate alongside earthen diyas, fairy lights, and marigolds.",
+        "visual_weaknesses": "Wide banner format (2816x1536) dilutes the central product focus; pouch artwork has generic typography; received lowest rating across all 3 criteria.",
+        "aspect_ratio": "Landscape (2816x1536)."
+      }
+    },
+    "takeaway": "Festive cultural motifs (diyas, marigolds, Haldiram-style packaging) are well-represented across all three models, making this Model B's strongest category."
+  },
+  "P4": {
+    "title": "Beige Cotton Kurta Set on Indian Model",
+    "prompt_summary": "Beige cotton kurta set on young Indian model, plain studio background, catalog style",
+    "observations": {
+      "Model A": {
+        "visual_strengths": "Indistinguishable from a professional Myntra or Fabindia catalog shoot. Model has natural Indian facial features, subtle bindi, silver oxidised jhumkas, and embroidered mojaris. The kurta set features realistic cotton-slub texture with delicate white Chikankari embroidery and matching dupatta gracefully pleated over the left shoulder.",
+        "visual_weaknesses": "Minor compression artifacting around background gradient edge, virtually invisible at standard web resolutions.",
+        "aspect_ratio": "Portrait (1024x1536, 2:3) — industry standard catalog ratio."
+      },
+      "Model B": {
+        "visual_strengths": "Pleasant smiling Indian model, nice cotton kurta with golden yoke piping.",
+        "visual_weaknesses": "Model is completely barefoot on bare floorboards (unusual for an e-commerce catalog listing). Generated in wide landscape (2816x1536) leaving massive empty walls on both sides instead of focusing on garment fit.",
+        "aspect_ratio": "Landscape (2816x1536) with excessive horizontal dead space."
+      },
+      "Model C": {
+        "visual_strengths": "Features a contemporary loose-silhouette straight kurta with wide-leg palazzo pants and leather juttis; clean studio lighting.",
+        "visual_weaknesses": "Missing dupatta; wide aspect ratio (2816x1536) puts model off-center with a large potted fiddle-leaf fig tree dominating the frame.",
+        "aspect_ratio": "Landscape (2816x1536)."
+      }
+    },
+    "takeaway": "Catalog suitability requires vertical 2:3 or 3:4 framing, complete footwear styling, and accurate traditional layering (kurta + bottoms + dupatta)."
+  },
+  "P5": {
+    "title": "Navy Blue Nehru Jacket with White Kurta",
+    "prompt_summary": "Navy blue Nehru jacket with white kurta, young Indian model, indoor festive setting",
+    "observations": {
+      "Model A": {
+        "visual_strengths": "100% prompt adherence for the specific traditional garment: a sleeveless navy blue Nehru jacket (sadri/waistcoat) with mandarin collar, metallic engraved buttons, and pocket square worn over a crisp white cotton kurta. Elegant Indian interior setting with antique carved console table, brass lamps, and coffee table books.",
+        "visual_weaknesses": "Very minor blurring along the left arm crease.",
+        "aspect_ratio": "Portrait (1024x1536, 2:3)."
+      },
+      "Model B": {
+        "visual_strengths": "Good garment fit (sleeveless navy vest over rolled-up sleeve white kurta), churidar and leather juttis; authentic Indian courtyard decor with brass hanging lamps and marigolds.",
+        "visual_weaknesses": "Generated an unsolicited 2-panel split image (full body on left, waist-up portrait on right). While both angles look sharp, split compositions break standard e-commerce grid ingestion pipelines.",
+        "aspect_ratio": "Widescreen split-panel montage (2816x1536)."
+      },
+      "Model C": {
+        "visual_strengths": "Rich royal setting with wooden pillars, brass standing lamps (samai), traditional jhula (swing) in background.",
+        "visual_weaknesses": "Critical prompt adherence failure: generated a full-sleeved Bandhgala / Jodhpuri blazer instead of a sleeveless Nehru jacket. For fashion e-commerce, misinterpreting a sleeveless jacket as a full-sleeved coat is a severe defect that would lead to immediate customer returns.",
+        "aspect_ratio": "Widescreen landscape (2816x1536)."
+      }
+    },
+    "takeaway": "Model C failed on specific garment taxonomy (Bandhgala coat vs. Nehru sadri vest), exposing a gap in fine-grained Indian ethnic fashion semantics."
+  }
+}

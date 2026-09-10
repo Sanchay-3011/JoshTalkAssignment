@@ -1,0 +1,166 @@
+participant_id,is_primary_sample,prompt_id,prompt_name,model_id,company,model_name,prompt_adherence,visual_quality,indian_authenticity,overall_score,high_rating_flag
+P01,True,P1,Red Banarasi Silk Saree,Model A,OpenAI,GPT Image 1 (ChatGPT Image),4.0,4.0,3.0,3.6667,False
+P01,True,P1,Red Banarasi Silk Saree,Model B,Google,Gemini 3.1 Pro Image,2.0,3.0,3.0,2.6667,False
+P01,True,P1,Red Banarasi Silk Saree,Model C,Google,Gemini 3.5 Flash-Lite,3.0,3.0,3.0,3.0,False
+P01,True,P2,Stainless Steel Tiffin Box,Model A,OpenAI,GPT Image 1 (ChatGPT Image),4.0,4.0,4.0,4.0,True
+P01,True,P2,Stainless Steel Tiffin Box,Model B,Google,Gemini 3.1 Pro Image,4.0,4.0,3.0,3.6667,False
+P01,True,P2,Stainless Steel Tiffin Box,Model C,Google,Gemini 3.5 Flash-Lite,3.0,3.0,3.0,3.0,False
+P01,True,P3,Festive Namkeen Snack Pouch,Model A,OpenAI,GPT Image 1 (ChatGPT Image),3.0,3.0,2.0,2.6667,False
+P01,True,P3,Festive Namkeen Snack Pouch,Model B,Google,Gemini 3.1 Pro Image,3.0,3.0,2.0,2.6667,False
+P01,True,P3,Festive Namkeen Snack Pouch,Model C,Google,Gemini 3.5 Flash-Lite,2.0,2.0,2.0,2.0,False
+P01,True,P4,Beige Cotton Kurta Set,Model A,OpenAI,GPT Image 1 (ChatGPT Image),3.0,3.0,3.0,3.0,False
+P01,True,P4,Beige Cotton Kurta Set,Model B,Google,Gemini 3.1 Pro Image,4.0,4.0,4.0,4.0,True
+P01,True,P4,Beige Cotton Kurta Set,Model C,Google,Gemini 3.5 Flash-Lite,3.0,2.0,3.0,2.6667,False
+P01,True,P5,Navy Blue Nehru Jacket,Model A,OpenAI,GPT Image 1 (ChatGPT Image),4.0,4.0,4.0,4.0,True
+P01,True,P5,Navy Blue Nehru Jacket,Model B,Google,Gemini 3.1 Pro Image,3.0,2.0,2.0,2.3333,False
+P01,True,P5,Navy Blue Nehru Jacket,Model C,Google,Gemini 3.5 Flash-Lite,3.0,2.0,2.0,2.3333,False
+P02,True,P1,Red Banarasi Silk Saree,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,4.0,5.0,4.6667,True
+P02,True,P1,Red Banarasi Silk Saree,Model B,Google,Gemini 3.1 Pro Image,3.0,2.0,3.0,2.6667,False
+P02,True,P1,Red Banarasi Silk Saree,Model C,Google,Gemini 3.5 Flash-Lite,1.0,1.0,2.0,1.3333,False
+P02,True,P2,Stainless Steel Tiffin Box,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,5.0,5.0,True
+P02,True,P2,Stainless Steel Tiffin Box,Model B,Google,Gemini 3.1 Pro Image,3.0,3.0,3.0,3.0,False
+P02,True,P2,Stainless Steel Tiffin Box,Model C,Google,Gemini 3.5 Flash-Lite,1.0,1.0,1.0,1.0,False
+P02,True,P3,Festive Namkeen Snack Pouch,Model A,OpenAI,GPT Image 1 (ChatGPT Image),3.0,3.0,3.0,3.0,False
+P02,True,P3,Festive Namkeen Snack Pouch,Model B,Google,Gemini 3.1 Pro Image,4.0,4.0,5.0,4.3333,True
+P02,True,P3,Festive Namkeen Snack Pouch,Model C,Google,Gemini 3.5 Flash-Lite,2.0,2.0,2.0,2.0,False
+P02,True,P4,Beige Cotton Kurta Set,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,5.0,5.0,True
+P02,True,P4,Beige Cotton Kurta Set,Model B,Google,Gemini 3.1 Pro Image,3.0,3.0,3.0,3.0,False
+P02,True,P4,Beige Cotton Kurta Set,Model C,Google,Gemini 3.5 Flash-Lite,1.0,1.0,1.0,1.0,False
+P02,True,P5,Navy Blue Nehru Jacket,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,5.0,5.0,True
+P02,True,P5,Navy Blue Nehru Jacket,Model B,Google,Gemini 3.1 Pro Image,2.0,3.0,2.0,2.3333,False
+P02,True,P5,Navy Blue Nehru Jacket,Model C,Google,Gemini 3.5 Flash-Lite,3.0,5.0,4.0,4.0,True
+P03,True,P1,Red Banarasi Silk Saree,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,5.0,5.0,True
+P03,True,P1,Red Banarasi Silk Saree,Model B,Google,Gemini 3.1 Pro Image,2.0,2.0,2.0,2.0,False
+P03,True,P1,Red Banarasi Silk Saree,Model C,Google,Gemini 3.5 Flash-Lite,1.0,2.0,2.0,1.6667,False
+P03,True,P2,Stainless Steel Tiffin Box,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,5.0,5.0,True
+P03,True,P2,Stainless Steel Tiffin Box,Model B,Google,Gemini 3.1 Pro Image,4.0,4.0,4.0,4.0,True
+P03,True,P2,Stainless Steel Tiffin Box,Model C,Google,Gemini 3.5 Flash-Lite,1.0,1.0,1.0,1.0,False
+P03,True,P3,Festive Namkeen Snack Pouch,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,5.0,5.0,True
+P03,True,P3,Festive Namkeen Snack Pouch,Model B,Google,Gemini 3.1 Pro Image,4.0,4.0,4.0,4.0,True
+P03,True,P3,Festive Namkeen Snack Pouch,Model C,Google,Gemini 3.5 Flash-Lite,3.0,3.0,3.0,3.0,False
+P03,True,P4,Beige Cotton Kurta Set,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,5.0,5.0,True
+P03,True,P4,Beige Cotton Kurta Set,Model B,Google,Gemini 3.1 Pro Image,4.0,4.0,4.0,4.0,True
+P03,True,P4,Beige Cotton Kurta Set,Model C,Google,Gemini 3.5 Flash-Lite,3.0,3.0,3.0,3.0,False
+P03,True,P5,Navy Blue Nehru Jacket,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,5.0,5.0,True
+P03,True,P5,Navy Blue Nehru Jacket,Model B,Google,Gemini 3.1 Pro Image,3.0,3.0,3.0,3.0,False
+P03,True,P5,Navy Blue Nehru Jacket,Model C,Google,Gemini 3.5 Flash-Lite,3.0,3.0,3.0,3.0,False
+P04,True,P1,Red Banarasi Silk Saree,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,5.0,5.0,True
+P04,True,P1,Red Banarasi Silk Saree,Model B,Google,Gemini 3.1 Pro Image,4.0,4.0,4.0,4.0,True
+P04,True,P1,Red Banarasi Silk Saree,Model C,Google,Gemini 3.5 Flash-Lite,3.0,3.0,3.0,3.0,False
+P04,True,P2,Stainless Steel Tiffin Box,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,5.0,5.0,True
+P04,True,P2,Stainless Steel Tiffin Box,Model B,Google,Gemini 3.1 Pro Image,3.0,3.0,3.0,3.0,False
+P04,True,P2,Stainless Steel Tiffin Box,Model C,Google,Gemini 3.5 Flash-Lite,4.0,4.0,4.0,4.0,True
+P04,True,P3,Festive Namkeen Snack Pouch,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,5.0,5.0,True
+P04,True,P3,Festive Namkeen Snack Pouch,Model B,Google,Gemini 3.1 Pro Image,4.0,4.0,4.0,4.0,True
+P04,True,P3,Festive Namkeen Snack Pouch,Model C,Google,Gemini 3.5 Flash-Lite,3.0,3.0,3.0,3.0,False
+P04,True,P4,Beige Cotton Kurta Set,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,5.0,5.0,True
+P04,True,P4,Beige Cotton Kurta Set,Model B,Google,Gemini 3.1 Pro Image,3.0,3.0,3.0,3.0,False
+P04,True,P4,Beige Cotton Kurta Set,Model C,Google,Gemini 3.5 Flash-Lite,4.0,4.0,4.0,4.0,True
+P04,True,P5,Navy Blue Nehru Jacket,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,3.0,4.3333,True
+P04,True,P5,Navy Blue Nehru Jacket,Model B,Google,Gemini 3.1 Pro Image,3.0,3.0,4.0,3.3333,False
+P04,True,P5,Navy Blue Nehru Jacket,Model C,Google,Gemini 3.5 Flash-Lite,4.0,4.0,4.0,4.0,True
+P05,True,P1,Red Banarasi Silk Saree,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,5.0,5.0,True
+P05,True,P1,Red Banarasi Silk Saree,Model B,Google,Gemini 3.1 Pro Image,4.0,4.0,4.0,4.0,True
+P05,True,P1,Red Banarasi Silk Saree,Model C,Google,Gemini 3.5 Flash-Lite,4.0,4.0,4.0,4.0,True
+P05,True,P2,Stainless Steel Tiffin Box,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,5.0,5.0,True
+P05,True,P2,Stainless Steel Tiffin Box,Model B,Google,Gemini 3.1 Pro Image,3.0,3.0,3.0,3.0,False
+P05,True,P2,Stainless Steel Tiffin Box,Model C,Google,Gemini 3.5 Flash-Lite,3.0,3.0,3.0,3.0,False
+P05,True,P3,Festive Namkeen Snack Pouch,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,5.0,5.0,True
+P05,True,P3,Festive Namkeen Snack Pouch,Model B,Google,Gemini 3.1 Pro Image,4.0,4.0,4.0,4.0,True
+P05,True,P3,Festive Namkeen Snack Pouch,Model C,Google,Gemini 3.5 Flash-Lite,2.0,2.0,2.0,2.0,False
+P05,True,P4,Beige Cotton Kurta Set,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,5.0,5.0,True
+P05,True,P4,Beige Cotton Kurta Set,Model B,Google,Gemini 3.1 Pro Image,3.0,3.0,3.0,3.0,False
+P05,True,P4,Beige Cotton Kurta Set,Model C,Google,Gemini 3.5 Flash-Lite,4.0,4.0,4.0,4.0,True
+P05,True,P5,Navy Blue Nehru Jacket,Model A,OpenAI,GPT Image 1 (ChatGPT Image),4.0,4.0,4.0,4.0,True
+P05,True,P5,Navy Blue Nehru Jacket,Model B,Google,Gemini 3.1 Pro Image,3.0,3.0,3.0,3.0,False
+P05,True,P5,Navy Blue Nehru Jacket,Model C,Google,Gemini 3.5 Flash-Lite,5.0,5.0,5.0,5.0,True
+P06,True,P1,Red Banarasi Silk Saree,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,5.0,5.0,True
+P06,True,P1,Red Banarasi Silk Saree,Model B,Google,Gemini 3.1 Pro Image,3.0,4.0,5.0,4.0,True
+P06,True,P1,Red Banarasi Silk Saree,Model C,Google,Gemini 3.5 Flash-Lite,4.0,5.0,5.0,4.6667,True
+P06,True,P2,Stainless Steel Tiffin Box,Model A,OpenAI,GPT Image 1 (ChatGPT Image),4.0,4.0,5.0,4.3333,True
+P06,True,P2,Stainless Steel Tiffin Box,Model B,Google,Gemini 3.1 Pro Image,5.0,5.0,5.0,5.0,True
+P06,True,P2,Stainless Steel Tiffin Box,Model C,Google,Gemini 3.5 Flash-Lite,5.0,5.0,5.0,5.0,True
+P06,True,P3,Festive Namkeen Snack Pouch,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,5.0,5.0,True
+P06,True,P3,Festive Namkeen Snack Pouch,Model B,Google,Gemini 3.1 Pro Image,5.0,4.0,5.0,4.6667,True
+P06,True,P3,Festive Namkeen Snack Pouch,Model C,Google,Gemini 3.5 Flash-Lite,4.0,5.0,5.0,4.6667,True
+P06,True,P4,Beige Cotton Kurta Set,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,5.0,5.0,True
+P06,True,P4,Beige Cotton Kurta Set,Model B,Google,Gemini 3.1 Pro Image,4.0,4.0,4.0,4.0,True
+P06,True,P4,Beige Cotton Kurta Set,Model C,Google,Gemini 3.5 Flash-Lite,4.0,4.0,4.0,4.0,True
+P06,True,P5,Navy Blue Nehru Jacket,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,5.0,5.0,True
+P06,True,P5,Navy Blue Nehru Jacket,Model B,Google,Gemini 3.1 Pro Image,3.0,3.0,3.0,3.0,False
+P06,True,P5,Navy Blue Nehru Jacket,Model C,Google,Gemini 3.5 Flash-Lite,4.0,4.0,4.0,4.0,True
+P07,True,P1,Red Banarasi Silk Saree,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,5.0,5.0,True
+P07,True,P1,Red Banarasi Silk Saree,Model B,Google,Gemini 3.1 Pro Image,5.0,5.0,5.0,5.0,True
+P07,True,P1,Red Banarasi Silk Saree,Model C,Google,Gemini 3.5 Flash-Lite,5.0,5.0,5.0,5.0,True
+P07,True,P2,Stainless Steel Tiffin Box,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,5.0,5.0,True
+P07,True,P2,Stainless Steel Tiffin Box,Model B,Google,Gemini 3.1 Pro Image,4.0,5.0,5.0,4.6667,True
+P07,True,P2,Stainless Steel Tiffin Box,Model C,Google,Gemini 3.5 Flash-Lite,5.0,5.0,5.0,5.0,True
+P07,True,P3,Festive Namkeen Snack Pouch,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,5.0,5.0,True
+P07,True,P3,Festive Namkeen Snack Pouch,Model B,Google,Gemini 3.1 Pro Image,5.0,5.0,5.0,5.0,True
+P07,True,P3,Festive Namkeen Snack Pouch,Model C,Google,Gemini 3.5 Flash-Lite,5.0,5.0,5.0,5.0,True
+P07,True,P4,Beige Cotton Kurta Set,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,5.0,5.0,True
+P07,True,P4,Beige Cotton Kurta Set,Model B,Google,Gemini 3.1 Pro Image,5.0,5.0,5.0,5.0,True
+P07,True,P4,Beige Cotton Kurta Set,Model C,Google,Gemini 3.5 Flash-Lite,5.0,5.0,5.0,5.0,True
+P07,True,P5,Navy Blue Nehru Jacket,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,5.0,5.0,True
+P07,True,P5,Navy Blue Nehru Jacket,Model B,Google,Gemini 3.1 Pro Image,5.0,5.0,5.0,5.0,True
+P07,True,P5,Navy Blue Nehru Jacket,Model C,Google,Gemini 3.5 Flash-Lite,5.0,5.0,5.0,5.0,True
+P08,True,P1,Red Banarasi Silk Saree,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,5.0,5.0,True
+P08,True,P1,Red Banarasi Silk Saree,Model B,Google,Gemini 3.1 Pro Image,4.0,4.0,3.0,3.6667,False
+P08,True,P1,Red Banarasi Silk Saree,Model C,Google,Gemini 3.5 Flash-Lite,3.0,1.0,1.0,1.6667,False
+P08,True,P2,Stainless Steel Tiffin Box,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,5.0,5.0,True
+P08,True,P2,Stainless Steel Tiffin Box,Model B,Google,Gemini 3.1 Pro Image,4.0,2.0,4.0,3.3333,False
+P08,True,P2,Stainless Steel Tiffin Box,Model C,Google,Gemini 3.5 Flash-Lite,1.0,2.0,3.0,2.0,False
+P08,True,P3,Festive Namkeen Snack Pouch,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,5.0,5.0,True
+P08,True,P3,Festive Namkeen Snack Pouch,Model B,Google,Gemini 3.1 Pro Image,5.0,5.0,5.0,5.0,True
+P08,True,P3,Festive Namkeen Snack Pouch,Model C,Google,Gemini 3.5 Flash-Lite,3.0,4.0,3.0,3.3333,False
+P08,True,P4,Beige Cotton Kurta Set,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,4.0,4.6667,True
+P08,True,P4,Beige Cotton Kurta Set,Model B,Google,Gemini 3.1 Pro Image,4.0,4.0,4.0,4.0,True
+P08,True,P4,Beige Cotton Kurta Set,Model C,Google,Gemini 3.5 Flash-Lite,4.0,4.0,4.0,4.0,True
+P08,True,P5,Navy Blue Nehru Jacket,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,5.0,5.0,True
+P08,True,P5,Navy Blue Nehru Jacket,Model B,Google,Gemini 3.1 Pro Image,4.0,4.0,4.0,4.0,True
+P08,True,P5,Navy Blue Nehru Jacket,Model C,Google,Gemini 3.5 Flash-Lite,1.0,1.0,1.0,1.0,False
+P09,True,P1,Red Banarasi Silk Saree,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,5.0,5.0,True
+P09,True,P1,Red Banarasi Silk Saree,Model B,Google,Gemini 3.1 Pro Image,5.0,5.0,5.0,5.0,True
+P09,True,P1,Red Banarasi Silk Saree,Model C,Google,Gemini 3.5 Flash-Lite,5.0,5.0,5.0,5.0,True
+P09,True,P2,Stainless Steel Tiffin Box,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,5.0,5.0,True
+P09,True,P2,Stainless Steel Tiffin Box,Model B,Google,Gemini 3.1 Pro Image,4.0,5.0,5.0,4.6667,True
+P09,True,P2,Stainless Steel Tiffin Box,Model C,Google,Gemini 3.5 Flash-Lite,4.0,5.0,5.0,4.6667,True
+P09,True,P3,Festive Namkeen Snack Pouch,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,5.0,5.0,True
+P09,True,P3,Festive Namkeen Snack Pouch,Model B,Google,Gemini 3.1 Pro Image,5.0,5.0,5.0,5.0,True
+P09,True,P3,Festive Namkeen Snack Pouch,Model C,Google,Gemini 3.5 Flash-Lite,5.0,5.0,5.0,5.0,True
+P09,True,P4,Beige Cotton Kurta Set,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,5.0,5.0,True
+P09,True,P4,Beige Cotton Kurta Set,Model B,Google,Gemini 3.1 Pro Image,5.0,5.0,5.0,5.0,True
+P09,True,P4,Beige Cotton Kurta Set,Model C,Google,Gemini 3.5 Flash-Lite,5.0,5.0,5.0,5.0,True
+P09,True,P5,Navy Blue Nehru Jacket,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,5.0,5.0,True
+P09,True,P5,Navy Blue Nehru Jacket,Model B,Google,Gemini 3.1 Pro Image,5.0,5.0,5.0,5.0,True
+P09,True,P5,Navy Blue Nehru Jacket,Model C,Google,Gemini 3.5 Flash-Lite,5.0,5.0,5.0,5.0,True
+P10,True,P1,Red Banarasi Silk Saree,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,4.0,4.0,4.3333,True
+P10,True,P1,Red Banarasi Silk Saree,Model B,Google,Gemini 3.1 Pro Image,3.0,3.0,4.0,3.3333,False
+P10,True,P1,Red Banarasi Silk Saree,Model C,Google,Gemini 3.5 Flash-Lite,2.0,2.0,1.0,1.6667,False
+P10,True,P2,Stainless Steel Tiffin Box,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,5.0,5.0,True
+P10,True,P2,Stainless Steel Tiffin Box,Model B,Google,Gemini 3.1 Pro Image,4.0,4.0,4.0,4.0,True
+P10,True,P2,Stainless Steel Tiffin Box,Model C,Google,Gemini 3.5 Flash-Lite,4.0,2.0,2.0,2.6667,False
+P10,True,P3,Festive Namkeen Snack Pouch,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,5.0,5.0,True
+P10,True,P3,Festive Namkeen Snack Pouch,Model B,Google,Gemini 3.1 Pro Image,3.0,3.0,2.0,2.6667,False
+P10,True,P3,Festive Namkeen Snack Pouch,Model C,Google,Gemini 3.5 Flash-Lite,2.0,2.0,1.0,1.6667,False
+P10,True,P4,Beige Cotton Kurta Set,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,5.0,5.0,True
+P10,True,P4,Beige Cotton Kurta Set,Model B,Google,Gemini 3.1 Pro Image,4.0,3.0,3.0,3.3333,False
+P10,True,P4,Beige Cotton Kurta Set,Model C,Google,Gemini 3.5 Flash-Lite,3.0,2.0,2.0,2.3333,False
+P10,True,P5,Navy Blue Nehru Jacket,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,5.0,5.0,True
+P10,True,P5,Navy Blue Nehru Jacket,Model B,Google,Gemini 3.1 Pro Image,3.0,2.0,3.0,2.6667,False
+P10,True,P5,Navy Blue Nehru Jacket,Model C,Google,Gemini 3.5 Flash-Lite,2.0,2.0,2.0,2.0,False
+P11,False,P1,Red Banarasi Silk Saree,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,3.0,4.3333,True
+P11,False,P1,Red Banarasi Silk Saree,Model B,Google,Gemini 3.1 Pro Image,4.0,3.0,3.0,3.3333,False
+P11,False,P1,Red Banarasi Silk Saree,Model C,Google,Gemini 3.5 Flash-Lite,5.0,3.0,3.0,3.6667,False
+P11,False,P2,Stainless Steel Tiffin Box,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,5.0,5.0,True
+P11,False,P2,Stainless Steel Tiffin Box,Model B,Google,Gemini 3.1 Pro Image,5.0,4.0,5.0,4.6667,True
+P11,False,P2,Stainless Steel Tiffin Box,Model C,Google,Gemini 3.5 Flash-Lite,5.0,3.0,3.0,3.6667,False
+P11,False,P3,Festive Namkeen Snack Pouch,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,5.0,5.0,True
+P11,False,P3,Festive Namkeen Snack Pouch,Model B,Google,Gemini 3.1 Pro Image,5.0,5.0,5.0,5.0,True
+P11,False,P3,Festive Namkeen Snack Pouch,Model C,Google,Gemini 3.5 Flash-Lite,5.0,3.0,3.0,3.6667,False
+P11,False,P4,Beige Cotton Kurta Set,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,4.0,4.6667,True
+P11,False,P4,Beige Cotton Kurta Set,Model B,Google,Gemini 3.1 Pro Image,5.0,5.0,3.0,4.3333,True
+P11,False,P4,Beige Cotton Kurta Set,Model C,Google,Gemini 3.5 Flash-Lite,5.0,4.0,3.0,4.0,True
+P11,False,P5,Navy Blue Nehru Jacket,Model A,OpenAI,GPT Image 1 (ChatGPT Image),5.0,5.0,5.0,5.0,True
+P11,False,P5,Navy Blue Nehru Jacket,Model B,Google,Gemini 3.1 Pro Image,5.0,4.0,3.0,4.0,True
+P11,False,P5,Navy Blue Nehru Jacket,Model C,Google,Gemini 3.5 Flash-Lite,5.0,3.0,2.0,3.3333,False

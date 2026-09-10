@@ -1,0 +1,207 @@
+{
+  "Saree": {
+    "A": {
+      "means": {
+        "match": 4.909,
+        "visual": 4.727,
+        "india": 4.545
+      },
+      "stds": {
+        "match": 0.287,
+        "visual": 0.445,
+        "india": 0.782
+      },
+      "overall": 4.727
+    },
+    "B": {
+      "means": {
+        "match": 3.545,
+        "visual": 3.545,
+        "india": 3.727
+      },
+      "stds": {
+        "match": 0.988,
+        "visual": 0.988,
+        "india": 0.962
+      },
+      "overall": 3.606
+    },
+    "C": {
+      "means": {
+        "match": 3.273,
+        "visual": 3.091,
+        "india": 3.091
+      },
+      "stds": {
+        "match": 1.42,
+        "visual": 1.443,
+        "india": 1.443
+      },
+      "overall": 3.152
+    }
+  },
+  "Tiffin": {
+    "A": {
+      "means": {
+        "match": 4.818,
+        "visual": 4.818,
+        "india": 4.909
+      },
+      "stds": {
+        "match": 0.386,
+        "visual": 0.386,
+        "india": 0.287
+      },
+      "overall": 4.848
+    },
+    "B": {
+      "means": {
+        "match": 3.909,
+        "visual": 3.818,
+        "india": 4.0
+      },
+      "stds": {
+        "match": 0.668,
+        "visual": 0.936,
+        "india": 0.853
+      },
+      "overall": 3.909
+    },
+    "C": {
+      "means": {
+        "match": 3.273,
+        "visual": 3.091,
+        "india": 3.182
+      },
+      "stds": {
+        "match": 1.543,
+        "visual": 1.443,
+        "india": 1.402
+      },
+      "overall": 3.182
+    }
+  },
+  "Snacks": {
+    "A": {
+      "means": {
+        "match": 4.636,
+        "visual": 4.636,
+        "india": 4.545
+      },
+      "stds": {
+        "match": 0.771,
+        "visual": 0.771,
+        "india": 0.988
+      },
+      "overall": 4.606
+    },
+    "B": {
+      "means": {
+        "match": 4.273,
+        "visual": 4.182,
+        "india": 4.182
+      },
+      "stds": {
+        "match": 0.75,
+        "visual": 0.716,
+        "india": 1.113
+      },
+      "overall": 4.212
+    },
+    "C": {
+      "means": {
+        "match": 3.273,
+        "visual": 3.273,
+        "india": 3.091
+      },
+      "stds": {
+        "match": 1.213,
+        "visual": 1.213,
+        "india": 1.311
+      },
+      "overall": 3.212
+    }
+  },
+  "Kurta": {
+    "A": {
+      "means": {
+        "match": 4.818,
+        "visual": 4.818,
+        "india": 4.636
+      },
+      "stds": {
+        "match": 0.575,
+        "visual": 0.575,
+        "india": 0.643
+      },
+      "overall": 4.757
+    },
+    "B": {
+      "means": {
+        "match": 4.0,
+        "visual": 3.909,
+        "india": 3.727
+      },
+      "stds": {
+        "match": 0.739,
+        "visual": 0.793,
+        "india": 0.75
+      },
+      "overall": 3.879
+    },
+    "C": {
+      "means": {
+        "match": 3.727,
+        "visual": 3.455,
+        "india": 3.455
+      },
+      "stds": {
+        "match": 1.135,
+        "visual": 1.233,
+        "india": 1.157
+      },
+      "overall": 3.546
+    }
+  },
+  "NehruJacket": {
+    "A": {
+      "means": {
+        "match": 4.818,
+        "visual": 4.818,
+        "india": 4.636
+      },
+      "stds": {
+        "match": 0.386,
+        "visual": 0.386,
+        "india": 0.643
+      },
+      "overall": 4.757
+    },
+    "B": {
+      "means": {
+        "match": 3.545,
+        "visual": 3.364,
+        "india": 3.364
+      },
+      "stds": {
+        "match": 0.988,
+        "visual": 0.979,
+        "india": 0.979
+      },
+      "overall": 3.424
+    },
+    "C": {
+      "means": {
+        "match": 3.636,
+        "visual": 3.545,
+        "india": 3.364
+      },
+      "stds": {
+        "match": 1.298,
+        "visual": 1.373,
+        "india": 1.367
+      },
+      "overall": 3.515
+    }
+  }
+}

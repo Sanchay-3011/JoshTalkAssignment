@@ -1,0 +1,29 @@
+{
+  "rank_unchanged": true,
+  "summary": "The model ranking was unchanged when the additional response was included.",
+  "deltas": {
+    "Model A": {
+      "primary_score": 4.733,
+      "robustness_score": 4.739,
+      "delta": 0.006,
+      "primary_rank": 1,
+      "robustness_rank": 1
+    },
+    "Model B": {
+      "primary_score": 3.76,
+      "robustness_score": 3.806,
+      "delta": 0.046,
+      "primary_rank": 2,
+      "robustness_rank": 2
+    },
+    "Model C": {
+      "primary_score": 3.287,
+      "robustness_score": 3.321,
+      "delta": 0.034,
+      "primary_rank": 3,
+      "robustness_rank": 3
+    }
+  },
+  "primary_sample_size": 10,
+  "robustness_sample_size": 11
+}

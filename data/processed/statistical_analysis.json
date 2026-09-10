@@ -1,0 +1,124 @@
+{
+  "sample_protocol": {
+    "primary_n": 10,
+    "robustness_n": 11,
+    "prompts_evaluated": 5,
+    "images_evaluated": 15,
+    "total_primary_ratings": 150,
+    "rating_scale": "1-5 Likert"
+  },
+  "variance_and_confidence_intervals_primary": {
+    "Model A": {
+      "overall_mean": 4.733,
+      "ci_95": [
+        4.567,
+        4.88
+      ],
+      "standard_error": 0.081,
+      "std_dev_overall": 0.575,
+      "variance_by_prompt": {
+        "P1": 0.446,
+        "P2": 0.36,
+        "P3": 0.917,
+        "P4": 0.63,
+        "P5": 0.439
+      },
+      "mean_prompt_variance": 0.558
+    },
+    "Model B": {
+      "overall_mean": 3.76,
+      "ci_95": [
+        3.533,
+        3.993
+      ],
+      "standard_error": 0.123,
+      "std_dev_overall": 0.881,
+      "variance_by_prompt": {
+        "P1": 0.987,
+        "P2": 0.758,
+        "P3": 0.878,
+        "P4": 0.758,
+        "P5": 0.987
+      },
+      "mean_prompt_variance": 0.874
+    },
+    "Model C": {
+      "overall_mean": 3.287,
+      "ci_95": [
+        2.913,
+        3.66
+      ],
+      "standard_error": 0.185,
+      "std_dev_overall": 1.35,
+      "variance_by_prompt": {
+        "P1": 1.483,
+        "P2": 1.517,
+        "P3": 1.308,
+        "P4": 1.25,
+        "P5": 1.398
+      },
+      "mean_prompt_variance": 1.391
+    }
+  },
+  "variance_and_confidence_intervals_robustness": {
+    "Model A": {
+      "overall_mean": 4.739,
+      "ci_95": [
+        4.588,
+        4.879
+      ],
+      "standard_error": 0.075,
+      "std_dev_overall": 0.554,
+      "variance_by_prompt": {
+        "P1": 0.443,
+        "P2": 0.345,
+        "P3": 0.88,
+        "P4": 0.598,
+        "P5": 0.424
+      },
+      "mean_prompt_variance": 0.538
+    },
+    "Model B": {
+      "overall_mean": 3.806,
+      "ci_95": [
+        3.582,
+        4.036
+      ],
+      "standard_error": 0.117,
+      "std_dev_overall": 0.869,
+      "variance_by_prompt": {
+        "P1": 0.941,
+        "P2": 0.761,
+        "P3": 0.873,
+        "P4": 0.734,
+        "P5": 0.956
+      },
+      "mean_prompt_variance": 0.853
+    },
+    "Model C": {
+      "overall_mean": 3.321,
+      "ci_95": [
+        2.982,
+        3.648
+      ],
+      "standard_error": 0.174,
+      "std_dev_overall": 1.293,
+      "variance_by_prompt": {
+        "P1": 1.417,
+        "P2": 1.448,
+        "P3": 1.25,
+        "P4": 1.195,
+        "P5": 1.328
+      },
+      "mean_prompt_variance": 1.328
+    }
+  },
+  "inter_rater_consensus": {
+    "mean_pairwise_correlation": 0.343,
+    "interpretation": "Positive alignment across human evaluators; Model A shows highest consensus (lowest variance), while Model C exhibits polarizing scores (std dev > 1.2 across multiple prompts)."
+  },
+  "sample_limitations": {
+    "sample_size": "N=10 participants is exploratory; directional signal is strong for Model A dominance, but formal statistical generalization across India requires N >= 50 with regional and demographic stratification.",
+    "prompt_coverage": "5 prompts focus on e-commerce catalog and festive advertising. Broader use cases (e.g., jewelry macro, FMCG nutrition labels, outdoor banners) remain to be tested."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "Model A": {
+    "model_id": "Model A",
+    "display_name": "Model A",
+    "company": "OpenAI",
+    "model_name": "GPT Image 1 (ChatGPT Image)",
+    "documentation_url": "https://developers.openai.com/api/docs/guides/image-generation",
+    "resolution": "1024x1536 / 1254x1254",
+    "aspect_ratio_behavior": "Adaptive (Portrait 2:3 for apparel, Square 1:1 for packaged products)",
+    "strengths": "Exceptional prompt adherence, realistic Indian fabrics and draping, contextual ad layout typography, accurate jewelry and props",
+    "weaknesses": "May occasionally introduce commercial text/branding unprompted (e.g. Milton, Haldiram's)"
+  },
+  "Model B": {
+    "model_id": "Model B",
+    "display_name": "Model B",
+    "company": "Google",
+    "model_name": "Gemini 3.1 Pro Image",
+    "documentation_url": "https://ai.google.dev/gemini-api/docs/image-generation",
+    "resolution": "2816x1536 / 2048x2048",
+    "aspect_ratio_behavior": "Predominantly widescreen landscape (16:9) with multi-panel / split compositions",
+    "strengths": "Strong festive decor motifs (diyas, marigolds, rangoli), vibrant colors, natural lighting",
+    "weaknesses": "Tendency to produce multi-panel composites (triptych, split shots) without being asked; wide aspect ratios ill-suited for vertical mobile ads"
+  },
+  "Model C": {
+    "model_id": "Model C",
+    "display_name": "Model C",
+    "company": "Google",
+    "model_name": "Gemini 3.5 Flash-Lite / 2.5 Flash Image",
+    "documentation_url": "https://ai.google.dev/gemini-api/docs/image-generation",
+    "resolution": "2816x1536",
+    "aspect_ratio_behavior": "Strict widescreen landscape (16:9) leaving wide peripheral negative space",
+    "strengths": "Crisp lighting and sharp object rendering",
+    "weaknesses": "High rater disagreement; failures in cultural dress specifics (generated full-sleeved Bandhgala instead of sleeveless Nehru jacket); used wooden artist mannequin with ball joints"
+  }
+}

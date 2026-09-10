@@ -1,0 +1,257 @@
+{
+  "P1": {
+    "prompt_id": "P1",
+    "prompt_name": "Red Banarasi Silk Saree",
+    "models": {
+      "Model A": {
+        "overall": 4.767,
+        "overall_std": 0.446,
+        "prompt_adherence": 4.9,
+        "visual_quality": 4.7,
+        "indian_authenticity": 4.7,
+        "ratings_count": 10,
+        "score_distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 2,
+          "5": 8
+        }
+      },
+      "Model B": {
+        "overall": 3.633,
+        "overall_std": 0.987,
+        "prompt_adherence": 3.5,
+        "visual_quality": 3.6,
+        "indian_authenticity": 3.8,
+        "ratings_count": 10,
+        "score_distribution": {
+          "1": 0,
+          "2": 1,
+          "3": 3,
+          "4": 4,
+          "5": 2
+        }
+      },
+      "Model C": {
+        "overall": 3.1,
+        "overall_std": 1.483,
+        "prompt_adherence": 3.1,
+        "visual_quality": 3.1,
+        "indian_authenticity": 3.1,
+        "ratings_count": 10,
+        "score_distribution": {
+          "1": 1,
+          "2": 3,
+          "3": 2,
+          "4": 1,
+          "5": 3
+        }
+      }
+    }
+  },
+  "P2": {
+    "prompt_id": "P2",
+    "prompt_name": "Stainless Steel Tiffin Box",
+    "models": {
+      "Model A": {
+        "overall": 4.833,
+        "overall_std": 0.36,
+        "prompt_adherence": 4.8,
+        "visual_quality": 4.8,
+        "indian_authenticity": 4.9,
+        "ratings_count": 10,
+        "score_distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 2,
+          "5": 8
+        }
+      },
+      "Model B": {
+        "overall": 3.833,
+        "overall_std": 0.758,
+        "prompt_adherence": 3.8,
+        "visual_quality": 3.8,
+        "indian_authenticity": 3.9,
+        "ratings_count": 10,
+        "score_distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 4,
+          "4": 3,
+          "5": 3
+        }
+      },
+      "Model C": {
+        "overall": 3.133,
+        "overall_std": 1.517,
+        "prompt_adherence": 3.1,
+        "visual_quality": 3.1,
+        "indian_authenticity": 3.2,
+        "ratings_count": 10,
+        "score_distribution": {
+          "1": 2,
+          "2": 1,
+          "3": 3,
+          "4": 1,
+          "5": 3
+        }
+      }
+    }
+  },
+  "P3": {
+    "prompt_id": "P3",
+    "prompt_name": "Festive Namkeen Snack Pouch",
+    "models": {
+      "Model A": {
+        "overall": 4.567,
+        "overall_std": 0.917,
+        "prompt_adherence": 4.6,
+        "visual_quality": 4.6,
+        "indian_authenticity": 4.5,
+        "ratings_count": 10,
+        "score_distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 2,
+          "4": 0,
+          "5": 8
+        }
+      },
+      "Model B": {
+        "overall": 4.133,
+        "overall_std": 0.878,
+        "prompt_adherence": 4.2,
+        "visual_quality": 4.1,
+        "indian_authenticity": 4.1,
+        "ratings_count": 10,
+        "score_distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 2,
+          "4": 4,
+          "5": 4
+        }
+      },
+      "Model C": {
+        "overall": 3.167,
+        "overall_std": 1.308,
+        "prompt_adherence": 3.1,
+        "visual_quality": 3.3,
+        "indian_authenticity": 3.1,
+        "ratings_count": 10,
+        "score_distribution": {
+          "1": 0,
+          "2": 4,
+          "3": 3,
+          "4": 0,
+          "5": 3
+        }
+      }
+    }
+  },
+  "P4": {
+    "prompt_id": "P4",
+    "prompt_name": "Beige Cotton Kurta Set",
+    "models": {
+      "Model A": {
+        "overall": 4.767,
+        "overall_std": 0.63,
+        "prompt_adherence": 4.8,
+        "visual_quality": 4.8,
+        "indian_authenticity": 4.7,
+        "ratings_count": 10,
+        "score_distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 0,
+          "5": 9
+        }
+      },
+      "Model B": {
+        "overall": 3.833,
+        "overall_std": 0.758,
+        "prompt_adherence": 3.9,
+        "visual_quality": 3.8,
+        "indian_authenticity": 3.8,
+        "ratings_count": 10,
+        "score_distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 4,
+          "4": 4,
+          "5": 2
+        }
+      },
+      "Model C": {
+        "overall": 3.5,
+        "overall_std": 1.25,
+        "prompt_adherence": 3.6,
+        "visual_quality": 3.4,
+        "indian_authenticity": 3.5,
+        "ratings_count": 10,
+        "score_distribution": {
+          "1": 1,
+          "2": 1,
+          "3": 2,
+          "4": 4,
+          "5": 2
+        }
+      }
+    }
+  },
+  "P5": {
+    "prompt_id": "P5",
+    "prompt_name": "Navy Blue Nehru Jacket",
+    "models": {
+      "Model A": {
+        "overall": 4.733,
+        "overall_std": 0.439,
+        "prompt_adherence": 4.8,
+        "visual_quality": 4.8,
+        "indian_authenticity": 4.6,
+        "ratings_count": 10,
+        "score_distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 3,
+          "5": 7
+        }
+      },
+      "Model B": {
+        "overall": 3.367,
+        "overall_std": 0.987,
+        "prompt_adherence": 3.4,
+        "visual_quality": 3.3,
+        "indian_authenticity": 3.4,
+        "ratings_count": 10,
+        "score_distribution": {
+          "1": 0,
+          "2": 2,
+          "3": 5,
+          "4": 1,
+          "5": 2
+        }
+      },
+      "Model C": {
+        "overall": 3.533,
+        "overall_std": 1.398,
+        "prompt_adherence": 3.5,
+        "visual_quality": 3.6,
+        "indian_authenticity": 3.5,
+        "ratings_count": 10,
+        "score_distribution": {
+          "1": 1,
+          "2": 2,
+          "3": 1,
+          "4": 3,
+          "5": 3
+        }
+      }
+    }
+  }
+}
