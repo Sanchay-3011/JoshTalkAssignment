@@ -3,7 +3,7 @@
     "model_id": "Model A",
     "display_name": "Model A",
     "company": "OpenAI",
-    "model_name": "GPT Image 1 (ChatGPT Image)",
+    "model_name": "ChatGPT Images 2.5",
     "documentation_url": "https://developers.openai.com/api/docs/guides/image-generation",
     "resolution": "1024x1536 / 1254x1254",
     "aspect_ratio_behavior": "Adaptive (Portrait 2:3 for apparel, Square 1:1 for packaged products)",

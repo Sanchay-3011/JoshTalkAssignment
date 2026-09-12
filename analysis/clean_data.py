@@ -49,7 +49,7 @@ PROMPT_BLOCKS = [
 ]
 
 MODELS = [
-    {"model_id": "Model A", "offset": 0, "company": "OpenAI", "model_name": "GPT Image 1 (ChatGPT Image)"},
+    {"model_id": "Model A", "offset": 0, "company": "OpenAI", "model_name": "ChatGPT Images 2.5"},
     {"model_id": "Model B", "offset": 3, "company": "Google", "model_name": "Gemini 3.1 Pro Image"},
     {"model_id": "Model C", "offset": 6, "company": "Google", "model_name": "Gemini 3.5 Flash-Lite"}
 ]

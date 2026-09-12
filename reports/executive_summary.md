@@ -8,7 +8,7 @@
 High-converting lifestyle and product photography is the single largest visual driver of digital retail conversion. However, for India's 63M+ MSMEs and emerging D2C brands, professional studio shoots cost ₹50,000–₹2,00,000 per collection. While generative text-to-image models promise near-zero marginal cost catalog creation, global models are predominantly trained on Western aesthetics. This evaluation rigorously tests whether current foundation models can generate commercially viable, culturally authentic imagery tailored to Indian consumers.
 
 ### Evaluated Models & Setup
-1. **Model A:** OpenAI — GPT Image 1 (`ChatGPT Image 1`)
+1. **Model A:** OpenAI — ChatGPT Images 2.5
 2. **Model B:** Google — Gemini 3.1 Pro Image (`Gemini 3.1 Pro`)
 3. **Model C:** Google — Gemini 3.5 Flash-Lite / 2.5 Flash (`Gemini 3.5-flash`)
 - **Evaluation Categories:** Ethnic Apparel (Saree, Kurta, Nehru Jacket), Kitchenware (Steel Tiffin Box), FMCG/Packaged Food (Festive Namkeen Pouch).
@@ -21,7 +21,7 @@ High-converting lifestyle and product photography is the single largest visual d
 
 | Rank | Model | Overall Score | Prompt Match | Visual Quality | Indian Authenticity | High Rating % (≥4) | Disagreement (StdDev) |
 |:---:|:---|:---:|:---:|:---:|:---:|:---:|:---:|
-| 🥇 **1** | **Model A (OpenAI GPT Image 1)** | **4.73 / 5.00** | **4.78** | **4.74** | **4.68** | **92.7%** | **±0.58 (High Consensus)** |
+| 🥇 **1** | **Model A (OpenAI ChatGPT Images 2.5)** | **4.73 / 5.00** | **4.78** | **4.74** | **4.68** | **92.7%** | **±0.58 (High Consensus)** |
 | 🥈 **2** | **Model B (Google Gemini 3.1 Pro)** | **3.76 / 5.00** | **3.76** | **3.72** | **3.80** | **59.3%** | **±0.88 (Moderate)** |
 | 🥉 **3** | **Model C (Google Gemini Flash-Lite)**| **3.29 / 5.00** | **3.28** | **3.30** | **3.28** | **46.7%** | **±1.35 (Polarized)** |
 
@@ -37,4 +37,4 @@ High-converting lifestyle and product photography is the single largest visual d
 ---
 
 ### Key Takeaway for Product & AI Teams
-**OpenAI GPT Image 1 is currently the only enterprise-ready model for turnkey Indian e-commerce lifestyle generation.** For an AI lab building tools for India, fine-tuning must target fine-grained ethnic fashion taxonomy (Nehru sadri vs. Bandhgala) and commercial listing layouts (vertical 2:3 catalog portraits with visible compartments).
+**OpenAI ChatGPT Images 2.5 is currently the only enterprise-ready model for turnkey Indian e-commerce lifestyle generation.** For an AI lab building tools for India, fine-tuning must target fine-grained ethnic fashion taxonomy (Nehru sadri vs. Bandhgala) and commercial listing layouts (vertical 2:3 catalog portraits with visible compartments).

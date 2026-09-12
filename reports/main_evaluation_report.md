@@ -12,7 +12,7 @@ This report presents an empirical, human-in-the-loop evaluation comparing three 
 Using a primary cohort of **10 verified adult participants** ($N=10$) providing **150 primary rating points** (plus an 11th participant evaluated under a sensitivity protocol), each generated image was evaluated across three orthogonal dimensions on a 1–5 Likert scale: **Prompt Adherence**, **Visual Quality**, and **Indian Cultural Authenticity**.
 
 ### Core Results Summary
-- **Model A (OpenAI GPT Image 1 / ChatGPT Image)** decisively ranked **#1** with an overall score of **4.73 / 5.00**, leading across every prompt and every evaluated dimension with the lowest evaluator disagreement ($\sigma = \pm 0.58$).
+- **Model A (OpenAI ChatGPT Images 2.5)** decisively ranked **#1** with an overall score of **4.73 / 5.00**, leading across every prompt and every evaluated dimension with the lowest evaluator disagreement ($\sigma = \pm 0.58$).
 - **Model B (Google Gemini 3.1 Pro Image)** placed **#2** with an overall score of **3.76 / 5.00**, demonstrating strong festive decorative motifs but hindered by unwanted multi-panel composite compositions.
 - **Model C (Google Gemini 3.5 Flash-Lite / 2.5 Flash)** placed **#3** with an overall score of **3.29 / 5.00**, exhibiting high rater disagreement ($\sigma = \pm 1.35$) caused by severe cultural misclassifications (e.g. generating a full-sleeved Bandhgala blazer instead of a sleeveless Nehru jacket).
 
@@ -38,7 +38,7 @@ Per the Josh Talks assignment specifications, the evaluation benchmarks three re
 
 | Model ID | Provider | Exact Model Name | Target Resolution | Architectural & Aspect Ratio Behavior |
 |---|---|---|---|---|
-| **Model A** | OpenAI | GPT Image 1 (`ChatGPT Image 1`) | 1024×1536 / 1254×1254 | Adaptive: Vertical 2:3 for apparel; 1:1 square for packaged items |
+| **Model A** | OpenAI | ChatGPT Images 2.5 | 1024×1536 / 1254×1254 | Adaptive: Vertical 2:3 for apparel; 1:1 square for packaged items |
 | **Model B** | Google | Gemini 3.1 Pro Image (`Gemini 3.1 Pro`) | 2816×1536 / 2048×2048 | Predominantly widescreen 16:9; prone to multi-panel split montages |
 | **Model C** | Google | Gemini 3.5 Flash-Lite / 2.5 Flash | 2816×1536 | Strict widescreen 16:9; leaves wide peripheral dead space |
 

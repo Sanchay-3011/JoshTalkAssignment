@@ -116,7 +116,7 @@ def render_rating_ui_concept(ctx: dict):
         ```mermaid
         graph TD
             A[1. Prompt Library] -->|Curated Indian Catalog Prompts| B[2. Unified Model Runner]
-            B -->|Batch API Calls| C1[OpenAI GPT Image 1]
+            B -->|Batch API Calls| C1[OpenAI ChatGPT Images 2.5]
             B -->|Batch API Calls| C2[Google Gemini 3.1 Pro]
             B -->|Batch API Calls| C3[Google Gemini 3.5 Flash]
             C1 --> D[3. Blind Randomizer]

@@ -12,7 +12,7 @@ Unlike generic image demos, this evaluation uses **actual survey data** (11 veri
 ```
                            EVALUATION OVERVIEW AT A GLANCE
 ┌───────────────────────────┬──────────────────────────────────────────────────────────────────┐
-│ Evaluated Models          │ 1. OpenAI GPT Image 1 (ChatGPT Image 1)                          │
+│ Evaluated Models          │ 1. OpenAI ChatGPT Images 2.5                                     │
 │                           │ 2. Google Gemini 3.1 Pro Image                                   │
 │                           │ 3. Google Gemini 3.5 Flash-Lite / 2.5 Flash                      │
 ├───────────────────────────┼──────────────────────────────────────────────────────────────────┤
@@ -22,7 +22,7 @@ Unlike generic image demos, this evaluation uses **actual survey data** (11 veri
 ├───────────────────────────┼──────────────────────────────────────────────────────────────────┤
 │ Rating Dimensions (1-5)   │ Prompt Adherence, Visual Quality, Indian Cultural Authenticity   │
 ├───────────────────────────┼──────────────────────────────────────────────────────────────────┤
-│ Primary Benchmark Winner  │ 🥇 Model A (OpenAI GPT Image 1) — 4.73 / 5.00 (Clean Sweep)      │
+│ Primary Benchmark Winner  │ 🥇 Model A (OpenAI ChatGPT Images 2.5) — 4.73 / 5.00 (Clean Sweep)│
 ├───────────────────────────┼──────────────────────────────────────────────────────────────────┤
 │ Rater Disagreement        │ Model A: σ = ±0.58 (Consensus) vs. Model C: σ = ±1.35 (Polarized)│
 └───────────────────────────┴──────────────────────────────────────────────────────────────────┘
@@ -48,7 +48,7 @@ While state-of-the-art text-to-image foundation models offer the promise of near
 
 | Model Identifier | Commercial Developer | Foundation Model Version | Aspect Ratio Behavior |
 |:---:|---|---|---|
-| **Model A** | **OpenAI** | GPT Image 1 (`ChatGPT Image 1`) | Adaptive (Portrait 2:3 for apparel, Square 1:1 for packaged goods) |
+| **Model A** | **OpenAI** | ChatGPT Images 2.5 | Adaptive (Portrait 2:3 for apparel, Square 1:1 for packaged goods) |
 | **Model B** | **Google** | Gemini 3.1 Pro Image (`Gemini 3.1 Pro`) | Predominantly widescreen 16:9; prone to multi-panel split montages |
 | **Model C** | **Google** | Gemini 3.5 Flash-Lite / 2.5 Flash | Strict widescreen 16:9; leaves wide peripheral dead space |
 
@@ -255,7 +255,7 @@ python analysis/statistical_analysis.py
 ---
 
 ## 📝 Deliverables Checklist (Josh Talks Assignment Compliance)
-- [x] **3 Required Models Evaluated**: OpenAI GPT Image 1, Gemini 3.1 Pro, Gemini 3.5 Flash-Lite.
+- [x] **3 Required Models Evaluated**: OpenAI ChatGPT Images 2.5, Gemini 3.1 Pro, Gemini 3.5 Flash-Lite.
 - [x] **Focused Indian Use Case**: E-commerce lifestyle & catalog photography.
 - [x] **5 Distinct Prompts**: Saree, Steel Tiffin, Namkeen, Kurta, Nehru Jacket.
 - [x] **15 Original Images**: Stored in `AI_generated_pictures/` and visually analyzed.

@@ -75,7 +75,7 @@ def render_scaling_plan(ctx: dict):
 
             subgraph Generation_Engine
                 MR[Unified Multi-Model Runner]
-                OA[OpenAI GPT Image]
+                OA[OpenAI ChatGPT Images 2.5]
                 G3[Gemini 3.1 Pro]
                 GF[Gemini Flash]
                 FL[FLUX 1.1 Pro]

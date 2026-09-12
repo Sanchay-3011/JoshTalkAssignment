@@ -31,7 +31,7 @@ def render_methodology(ctx: dict):
             """
             To evaluate foundation image models objectively, the experiment enforced five strict controls:
 
-            1. **Identical Text Prompts**: Exactly the same prompt string was submitted to OpenAI GPT Image 1, Gemini 3.1 Pro, and Gemini 3.5 Flash. No prompt was tweaked to artificially favor or handicap any provider.
+            1. **Identical Text Prompts**: Exactly the same prompt string was submitted to OpenAI ChatGPT Images 2.5, Gemini 3.1 Pro, and Gemini 3.5 Flash. No prompt was tweaked to artificially favor or handicap any provider.
             2. **Blind Labeling (`Model A`, `Model B`, `Model C`)**: Evaluators were not informed which image belonged to which commercial provider during the rating survey, mitigating brand prestige bias.
             3. **Orthogonal 3-Dimensional Likert Scale (1–5)**:
                - **Prompt Adherence**: Faithfulness to the text prompt's explicit nouns, adjectives, and functional requirements.
