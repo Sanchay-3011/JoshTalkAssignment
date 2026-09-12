@@ -80,7 +80,7 @@ def render_leaderboard(ctx: dict):
             "_sort_val": d[target_key]
         })
 
-    df_lb = pd.DataFrame(model_rows).sort_values(by="_sort_val", reverse=True).drop(columns=["_sort_val"])
+    df_lb = pd.DataFrame(model_rows).sort_values(by="_sort_val", ascending=False).drop(columns=["_sort_val"])
 
     # Display clean table
     st.dataframe(

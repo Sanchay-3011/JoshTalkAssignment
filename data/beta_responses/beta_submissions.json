@@ -1,0 +1,126 @@
+[
+  {
+    "submission_id": "BETA_20260913_004053",
+    "timestamp": "2026-09-13 00:40:53",
+    "participant": {
+      "name": "Amit Verma",
+      "email": "amit.verma@example.com",
+      "age": 26,
+      "consent": true
+    },
+    "ratings": {
+      "P1": {
+        "Image A": {
+          "adherence": 4,
+          "quality": 5,
+          "authenticity": 4
+        },
+        "Image B": {
+          "adherence": 5,
+          "quality": 5,
+          "authenticity": 5
+        },
+        "Image C": {
+          "adherence": 3,
+          "quality": 3,
+          "authenticity": 3
+        }
+      },
+      "P2": {
+        "Image A": {
+          "adherence": 5,
+          "quality": 5,
+          "authenticity": 5
+        },
+        "Image B": {
+          "adherence": 4,
+          "quality": 4,
+          "authenticity": 4
+        },
+        "Image C": {
+          "adherence": 2,
+          "quality": 3,
+          "authenticity": 2
+        }
+      },
+      "P3": {
+        "Image A": {
+          "adherence": 4,
+          "quality": 4,
+          "authenticity": 4
+        },
+        "Image B": {
+          "adherence": 5,
+          "quality": 5,
+          "authenticity": 5
+        },
+        "Image C": {
+          "adherence": 3,
+          "quality": 3,
+          "authenticity": 3
+        }
+      },
+      "P4": {
+        "Image A": {
+          "adherence": 5,
+          "quality": 5,
+          "authenticity": 5
+        },
+        "Image B": {
+          "adherence": 2,
+          "quality": 2,
+          "authenticity": 3
+        },
+        "Image C": {
+          "adherence": 4,
+          "quality": 4,
+          "authenticity": 4
+        }
+      },
+      "P5": {
+        "Image A": {
+          "adherence": 4,
+          "quality": 4,
+          "authenticity": 4
+        },
+        "Image B": {
+          "adherence": 5,
+          "quality": 5,
+          "authenticity": 5
+        },
+        "Image C": {
+          "adherence": 2,
+          "quality": 2,
+          "authenticity": 2
+        }
+      }
+    },
+    "blind_mapping": {
+      "P1": {
+        "Image A": "Model B",
+        "Image B": "Model C",
+        "Image C": "Model A"
+      },
+      "P2": {
+        "Image A": "Model C",
+        "Image B": "Model A",
+        "Image C": "Model B"
+      },
+      "P3": {
+        "Image A": "Model A",
+        "Image B": "Model C",
+        "Image C": "Model B"
+      },
+      "P4": {
+        "Image A": "Model B",
+        "Image B": "Model C",
+        "Image C": "Model A"
+      },
+      "P5": {
+        "Image A": "Model B",
+        "Image B": "Model A",
+        "Image C": "Model C"
+      }
+    }
+  }
+]

@@ -140,6 +140,59 @@ graph LR
 
 ---
 
+## 🖥️ Platform Experience: India Image Eval
+
+The evaluation is packaged as an interactive product prototype called **"India Image Eval"**, offering a two-pathway experience:
+
+```
+                    ┌────────────────────────────────────────┐
+                    │            INDIA IMAGE EVAL            │
+                    │                                        │
+                    │  Human evaluation of text-to-image     │
+                    │  models for Indian e-commerce          │
+                    └───────────────────┬────────────────────┘
+                                        │
+                         ┌──────────────┴──────────────┐
+                         │                             │
+                         ↓                             ↓
+              ┌─────────────────────┐       ┌─────────────────────┐
+              │ 📊 ASSIGNMENT       │       │ 🧪 TRY RATING APP   │
+              │    EVALUATION       │       │       BETA          │
+              │                     │       │                     │
+              │ View actual results │       │ Participate in the  │
+              │ and findings        │       │ evaluation prototype│
+              └──────────┬──────────┘       └──────────┬──────────┘
+                         │                             │
+                         ↓                             ↓
+                  ONE RESULTS PAGE              PARTICIPANT FLOW
+                         │                             │
+                Executive Overview              Details & Consent
+                Model Leaderboard               Prompt 1 of 5
+                Dimension Comparison            Prompt 2 of 5
+                Prompt Results (15 Imgs)        Prompt 3 of 5
+                Evaluator Disagreement          Prompt 4 of 5
+                Robustness (N=10 vs N=11)       Prompt 5 of 5
+                Scientific Methodology          Submission & Isolation
+                Answers to 5 Questions                 ↓
+                Filterable Raw Dataset          Stored in data/beta_responses/
+```
+
+### Visual Interface Showcase
+
+#### 1. Product Homepage
+Clean landing screen presenting the evaluation problem and two primary choices:
+![India Image Eval Homepage](docs/images/homepage.png)
+
+#### 2. Single-Page Executive Results
+Comprehensive report containing the leaderboard, dimension radar/bar charts, prompt-by-prompt image comparisons, rater disagreement matrices, robustness checks, and methodology:
+![Assignment Evaluation Results Page](docs/images/assignment_results.png)
+
+#### 3. Try Rating App (Beta Prototype)
+Participant-facing rating prototype with informed consent, progress tracking across all 5 prompts, blinded A/B/C presentation, and isolated storage in `data/beta_responses/`:
+![Try Rating App Completion Screen](docs/images/try_rating_app.png)
+
+---
+
 ## 📂 Project Structure
 
 ```
@@ -147,9 +200,14 @@ JoshTalkAssignment/
 ├── .gitignore
 ├── .env.example
 ├── requirements.txt
-├── run.py                         # Convenience launcher: python run.py
-├── README.md                      # Comprehensive project documentation
+├── run.py                         # Auto-detecting launcher: python run.py
+├── README.md                      # Comprehensive project documentation & case study
 ├── AI_generated_pictures/         # 15 original generated PNGs across 5 prompts
+│   ├── Prompt1/                   # Red Banarasi Silk Saree (A, B, C)
+│   ├── Prompt2/                   # Stainless Steel Tiffin Box (A, B, C)
+│   ├── Prompt3/                   # Festive Namkeen Snack Pouch (A, B, C)
+│   ├── Prompt4/                   # Beige Cotton Kurta Set (A, B, C)
+│   └── Prompt5/                   # Navy Blue Nehru Jacket with Kurta (A, B, C)
 ├── data/
 │   ├── raw/
 │   │   ├── form_responses.csv     # Raw Google Form responses (11 records)
@@ -162,38 +220,36 @@ JoshTalkAssignment/
 │   │   ├── prompt_metrics.json        # Prompt-level aggregates
 │   │   ├── sensitivity_check.json     # Empirical delta & rank invariance check
 │   │   └── statistical_analysis.json  # 95% Bootstrap CIs & rater variance
-│   └── metadata/
-│       ├── models.json            # Model specs, providers, aspect ratios
-│       ├── prompts.json           # 5 prompt definitions & cultural nuance
-│       └── qualitative_notes.json # Pixel-grounded strengths & failure modes
+│   ├── metadata/
+│   │   ├── models.json            # Model specs, providers, aspect ratios
+│   │   ├── prompts.json           # 5 prompt definitions & cultural nuance
+│   │   └── qualitative_notes.json # Pixel-grounded strengths & failure modes
+│   └── beta_responses/            # Isolated prototype rating submissions (JSON & CSV)
+├── docs/
+│   └── images/                    # UI showcase screenshots
 ├── analysis/
 │   ├── clean_data.py              # Ingestion, PII masking, schema normalization
 │   ├── calculate_scores.py        # Benchmark score calculation engine
 │   └── statistical_analysis.py    # Bootstrap CIs & rater consensus
 ├── app/
 │   ├── __init__.py
-│   ├── main.py                    # Multi-page Streamlit application entrypoint
+│   ├── main.py                    # Streamlined Streamlit entrypoint
 │   ├── config.py                  # Design tokens, caching, custom CSS
 │   ├── components/
 │   │   ├── __init__.py
 │   │   └── cards.py               # KPI cards, radar charts, heatmaps
-│   └── pages/
-│       ├── overview.py            # Page 1: Executive Overview & KPI Cards
-│       ├── leaderboard.py         # Page 2: Interactive Model Leaderboard
-│       ├── prompt_analysis.py     # Page 3: Prompt Deep-Dive & Image Grids
-│       ├── image_comparison.py    # Page 4: Side-by-Side Image Inspector
-│       ├── participant_insights.py# Page 5: Rater Disagreement & Box Plots
-│       ├── methodology.py         # Page 6: Experimental Controls & Fairness
-│       ├── evaluation_data.py     # Page 7: Filterable Data & CSV Exports
-│       ├── rating_ui_concept.py   # Page 8: Interactive Human Rating Mockup
-│       ├── scaling_plan.py        # Page 9: Enterprise Architecture & Roadmap
-│       └── reports_page.py        # Page 10: Complete Reports & Reflections
+│   └── views/
+│       ├── __init__.py
+│       ├── home.py                # Homepage (India Image Eval product landing)
+│       ├── results.py             # Single-page executive results experience
+│       └── rating_app.py          # Try Rating App (Beta participant prototype)
 ├── reports/
 │   ├── executive_summary.md       # 1-page executive brief
 │   └── main_evaluation_report.md  # Comprehensive assignment submission
 └── tests/
     ├── test_data.py               # Data pipeline & PII protection tests
-    └── test_metrics.py            # Score calculation & ranking stability tests
+    ├── test_metrics.py            # Score calculation & ranking stability tests
+    └── test_views_and_separation.py # Image existence, view integrity & data isolation
 ```
 
 ---

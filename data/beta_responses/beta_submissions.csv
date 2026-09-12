@@ -1,0 +1,16 @@
+submission_id,timestamp,participant_name,participant_email,participant_age,prompt_id,display_label,underlying_model,prompt_adherence,visual_quality,indian_authenticity
+BETA_20260913_004053,2026-09-13 00:40:53,Amit Verma,amit.verma@example.com,26,P1,Image A,Model B,4,5,4
+BETA_20260913_004053,2026-09-13 00:40:53,Amit Verma,amit.verma@example.com,26,P1,Image B,Model C,5,5,5
+BETA_20260913_004053,2026-09-13 00:40:53,Amit Verma,amit.verma@example.com,26,P1,Image C,Model A,3,3,3
+BETA_20260913_004053,2026-09-13 00:40:53,Amit Verma,amit.verma@example.com,26,P2,Image A,Model C,5,5,5
+BETA_20260913_004053,2026-09-13 00:40:53,Amit Verma,amit.verma@example.com,26,P2,Image B,Model A,4,4,4
+BETA_20260913_004053,2026-09-13 00:40:53,Amit Verma,amit.verma@example.com,26,P2,Image C,Model B,2,3,2
+BETA_20260913_004053,2026-09-13 00:40:53,Amit Verma,amit.verma@example.com,26,P3,Image A,Model A,4,4,4
+BETA_20260913_004053,2026-09-13 00:40:53,Amit Verma,amit.verma@example.com,26,P3,Image B,Model C,5,5,5
+BETA_20260913_004053,2026-09-13 00:40:53,Amit Verma,amit.verma@example.com,26,P3,Image C,Model B,3,3,3
+BETA_20260913_004053,2026-09-13 00:40:53,Amit Verma,amit.verma@example.com,26,P4,Image A,Model B,5,5,5
+BETA_20260913_004053,2026-09-13 00:40:53,Amit Verma,amit.verma@example.com,26,P4,Image B,Model C,2,2,3
+BETA_20260913_004053,2026-09-13 00:40:53,Amit Verma,amit.verma@example.com,26,P4,Image C,Model A,4,4,4
+BETA_20260913_004053,2026-09-13 00:40:53,Amit Verma,amit.verma@example.com,26,P5,Image A,Model B,4,4,4
+BETA_20260913_004053,2026-09-13 00:40:53,Amit Verma,amit.verma@example.com,26,P5,Image B,Model A,5,5,5
+BETA_20260913_004053,2026-09-13 00:40:53,Amit Verma,amit.verma@example.com,26,P5,Image C,Model C,2,2,2
