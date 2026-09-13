@@ -1,186 +1,235 @@
 """
 Homepage for India Image Eval.
-Clean product landing page presenting two primary pathways:
-1. Assignment Evaluation (view completed benchmark results)
-2. Try the Rating App (Beta participant rating prototype)
+Exact 1:1 match to product design specification with complete dark mode immunity.
 """
 
 import streamlit as st
 
 
 def render_home():
-    # Subtle top pill badge
+    # Top Right "View on GitHub" Link
     st.markdown(
         """
-        <div style="text-align: center; margin-top: 25px; margin-bottom: 12px;">
-            <span style="
-                background: #F1F5F9;
-                color: #475569;
-                font-size: 0.78rem;
+        <div style="display: flex; justify-content: flex-end; align-items: center; margin-top: -14px; margin-bottom: 8px;">
+            <a href="https://github.com/Sanchay-3011/JoshTalkAssignment" target="_blank" style="
+                display: inline-flex;
+                align-items: center;
+                gap: 7px;
+                color: #0F172A;
+                text-decoration: none;
+                font-size: 0.88rem;
                 font-weight: 600;
+                transition: opacity 0.15s ease;
+            ">
+                <svg height="19" width="19" viewBox="0 0 16 16" fill="#0F172A">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+                </svg>
+                View on GitHub
+            </a>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+    # Pill Badge: FOUNDATION MODEL EVALUATION
+    st.markdown(
+        """
+        <div style="text-align: center; margin-bottom: 12px;">
+            <span style="
+                background: #EFF6FF;
+                color: #2563EB;
+                font-size: 0.72rem;
+                font-weight: 700;
                 letter-spacing: 0.08em;
                 text-transform: uppercase;
-                padding: 6px 14px;
+                padding: 5px 16px;
                 border-radius: 9999px;
-                border: 1px solid #E2E8F0;
                 display: inline-block;
             ">
-                Foundation Model Evaluation · Indian E-Commerce
+                FOUNDATION MODEL EVALUATION
             </span>
         </div>
         """,
         unsafe_allow_html=True
     )
 
-    # Main Title & Subtitle
+    # Hero Title, Subtitle & Description
     st.markdown(
         """
-        <div style="text-align: center; max-width: 820px; margin: 0 auto 36px auto;">
+        <div style="text-align: center; max-width: 860px; margin: 0 auto;">
             <h1 style="
-                font-size: 2.75rem;
+                font-size: 2.85rem;
                 font-weight: 800;
                 color: #0F172A;
-                letter-spacing: -0.03em;
+                letter-spacing: -0.025em;
                 line-height: 1.15;
-                margin-bottom: 12px;
+                margin-top: 0;
+                margin-bottom: 10px;
             ">
-                INDIA IMAGE EVAL
+                INDIA <span style="color: #2563EB;">IMAGE EVAL</span>
             </h1>
             <p style="
-                font-size: 1.25rem;
+                font-size: 1.12rem;
                 font-weight: 500;
                 color: #334155;
                 line-height: 1.4;
-                margin-bottom: 18px;
+                margin-bottom: 10px;
             ">
                 Human evaluation of text-to-image models for Indian e-commerce.
             </p>
             <p style="
-                font-size: 0.98rem;
+                font-size: 0.92rem;
                 color: #64748B;
-                line-height: 1.6;
+                line-height: 1.55;
                 margin: 0 auto;
-                max-width: 680px;
+                max-width: 740px;
             ">
                 This project evaluates how well leading image generation models handle Indian e-commerce scenarios using human judgment across prompt adherence, visual quality, and Indian audience authenticity.
-            </p>
-            <p style="
-                font-size: 0.92rem;
-                color: #475569;
-                line-height: 1.5;
-                margin-top: 14px;
-                font-weight: 500;
-            ">
-                Explore the results of the completed evaluation or try the prototype rating experience used to demonstrate how this evaluation could work at scale.
             </p>
         </div>
         """,
         unsafe_allow_html=True
     )
 
-    st.markdown("<div style='height: 10px;'></div>", unsafe_allow_html=True)
+    # Indian Tricolor Divider
+    st.markdown(
+        """
+        <div style="display: flex; justify-content: center; margin: 14px auto 24px auto; width: 84px;">
+            <div style="background: #F97316; width: 28px; height: 4px; border-radius: 4px 0 0 4px;"></div>
+            <div style="background: #CBD5E1; width: 28px; height: 4px;"></div>
+            <div style="background: #16A34A; width: 28px; height: 4px; border-radius: 0 4px 4px 0;"></div>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 
-    # Two Primary Option Cards
-    col1, col2 = st.columns(2, gap="large")
+    # Two Option Cards Layout
+    col1, col2 = st.columns(2, gap="medium")
 
     with col1:
-        st.markdown(
-            """
-            <div style="
-                background: #FFFFFF;
-                border: 1px solid #E2E8F0;
-                border-radius: 14px;
-                padding: 32px 28px 24px 28px;
-                box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-                min-height: 330px;
-            ">
-                <div>
-                    <div style="font-size: 2.2rem; margin-bottom: 14px;">📊</div>
-                    <div style="font-size: 1.28rem; font-weight: 700; color: #0F172A; margin-bottom: 4px;">
-                        ASSIGNMENT EVALUATION
+        with st.container(border=True):
+            st.markdown(
+                """
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+                    <div style="background: #EFF6FF; width: 44px; height: 44px; border-radius: 10px; display: flex; align-items: center; justify-content: center;">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="#2563EB">
+                            <rect x="3" y="12" width="4" height="8" rx="1"/>
+                            <rect x="10" y="7" width="4" height="13" rx="1"/>
+                            <rect x="17" y="3" width="4" height="17" rx="1"/>
+                        </svg>
                     </div>
-                    <div style="font-size: 0.88rem; font-weight: 600; color: #2563EB; margin-bottom: 14px; text-transform: uppercase; letter-spacing: 0.04em;">
-                        Explore the Results
-                    </div>
-                    <p style="font-size: 0.92rem; color: #475569; line-height: 1.55; margin-bottom: 24px;">
-                        View the completed evaluation, including model rankings, prompt-level findings, participant ratings, visual comparisons, methodology, and key conclusions.
-                    </p>
+                    <span style="
+                        background: #EFF6FF;
+                        color: #2563EB;
+                        font-size: 0.70rem;
+                        font-weight: 700;
+                        letter-spacing: 0.06em;
+                        padding: 4px 10px;
+                        border-radius: 9999px;
+                        border: 1px solid #BFDBFE;
+                    ">
+                        🏆 COMPLETED
+                    </span>
                 </div>
-            </div>
-            """,
-            unsafe_allow_html=True
-        )
-        st.markdown("<div style='height: 12px;'></div>", unsafe_allow_html=True)
-        if st.button("VIEW ASSIGNMENT RESULTS →", key="btn_view_results", use_container_width=True, type="primary"):
-            st.session_state["view"] = "assignment_results"
-            st.rerun()
+                <div style="font-size: 1.25rem; font-weight: 800; color: #0F172A; margin-bottom: 2px; letter-spacing: -0.01em;">
+                    ASSIGNMENT EVALUATION
+                </div>
+                <div style="font-size: 0.95rem; font-weight: 700; color: #2563EB; margin-bottom: 10px;">
+                    Explore the Results
+                </div>
+                <p style="font-size: 0.86rem; color: #64748B; line-height: 1.5; min-height: 60px; margin-bottom: 18px;">
+                    View the completed evaluation, including model rankings, prompt-level findings, participant ratings, visual comparisons, methodology, and key conclusions.
+                </p>
+                """,
+                unsafe_allow_html=True
+            )
+            if st.button("View Assignment Results →", key="btn_view_results", use_container_width=True):
+                st.session_state["view"] = "assignment_results"
+                st.rerun()
 
     with col2:
-        st.markdown(
-            """
-            <div style="
-                background: #FFFFFF;
-                border: 1px solid #E2E8F0;
-                border-radius: 14px;
-                padding: 32px 28px 24px 28px;
-                box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-                min-height: 330px;
-            ">
-                <div>
-                    <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 14px;">
-                        <span style="font-size: 2.2rem;">🧪</span>
-                        <span style="
-                            background: #FEF3C7;
-                            color: #92400E;
-                            font-size: 0.74rem;
-                            font-weight: 700;
-                            letter-spacing: 0.08em;
-                            padding: 3px 9px;
-                            border-radius: 6px;
-                            border: 1px solid #FDE68A;
-                        ">BETA</span>
+        with st.container(border=True):
+            st.markdown(
+                """
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+                    <div style="background: #FFF7ED; width: 44px; height: 44px; border-radius: 10px; display: flex; align-items: center; justify-content: center;">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#EA580C" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M10 2v7.31L4.69 18.2A2 2 0 0 0 6.4 21h11.2a2 2 0 0 0 1.71-2.8L14 9.31V2h-4Z"/>
+                            <path d="M8.5 2h7"/>
+                            <path d="M7 16h10"/>
+                        </svg>
                     </div>
-                    <div style="font-size: 1.28rem; font-weight: 700; color: #0F172A; margin-bottom: 4px;">
-                        TRY THE RATING APP
-                    </div>
-                    <div style="font-size: 0.88rem; font-weight: 600; color: #D97706; margin-bottom: 14px; text-transform: uppercase; letter-spacing: 0.04em;">
-                        Participate in a Sample Evaluation
-                    </div>
-                    <p style="font-size: 0.92rem; color: #475569; line-height: 1.55; margin-bottom: 24px;">
-                        Try the participant-facing prototype. Enter your details, review the generated images, and rate them across the evaluation dimensions.
-                    </p>
+                    <span style="
+                        background: #FFEDD5;
+                        color: #EA580C;
+                        font-size: 0.70rem;
+                        font-weight: 700;
+                        letter-spacing: 0.06em;
+                        padding: 4px 10px;
+                        border-radius: 9999px;
+                        border: 1px solid #FED7AA;
+                    ">
+                        BETA
+                    </span>
                 </div>
-            </div>
-            """,
-            unsafe_allow_html=True
-        )
-        st.markdown("<div style='height: 12px;'></div>", unsafe_allow_html=True)
-        if st.button("TRY RATING APP →", key="btn_try_rating", use_container_width=True, type="secondary"):
-            st.session_state["view"] = "try_rating_app"
-            st.rerun()
+                <div style="font-size: 1.25rem; font-weight: 800; color: #0F172A; margin-bottom: 2px; letter-spacing: -0.01em;">
+                    TRY THE RATING APP
+                </div>
+                <div style="font-size: 0.95rem; font-weight: 700; color: #EA580C; margin-bottom: 10px;">
+                    Participate in a Sample Evaluation
+                </div>
+                <p style="font-size: 0.86rem; color: #64748B; line-height: 1.5; min-height: 60px; margin-bottom: 18px;">
+                    Try the participant-facing prototype. Enter your details, review the generated images, and rate them across the evaluation dimensions.
+                </p>
+                """,
+                unsafe_allow_html=True
+            )
+            if st.button("Try Rating App (Beta) →", key="btn_try_rating", use_container_width=True):
+                st.session_state["view"] = "try_rating_app"
+                st.rerun()
 
-    # Clear prototype disclaimer below the cards
+    # Bottom Full-Width Disclaimer Box
     st.markdown(
         """
         <div style="
-            text-align: center;
-            max-width: 650px;
-            margin: 44px auto 20px auto;
-            padding: 14px 18px;
-            background: #F8FAFC;
-            border-radius: 8px;
-            border: 1px dashed #CBD5E1;
-            color: #64748B;
-            font-size: 0.82rem;
-            line-height: 1.5;
+            background: #F0FDF4;
+            border: 1px solid #BBF7D0;
+            border-radius: 12px;
+            padding: 12px 18px;
+            margin: 22px auto 0 auto;
+            display: flex;
+            align-items: center;
+            gap: 16px;
         ">
-            <strong>Prototype Note:</strong> The Rating App is a functional prototype demonstrating how Josh Talks could operationalize human-in-the-loop image evaluation at scale. Submissions made in the prototype are stored separately and do not alter the verified 11-participant assignment survey dataset.
+            <div style="
+                background: #16A34A;
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-shrink: 0;
+                color: white;
+            ">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"/>
+                </svg>
+            </div>
+            <div style="
+                width: 1px;
+                height: 34px;
+                background-color: #BBF7D0;
+                flex-shrink: 0;
+            "></div>
+            <div style="display: flex; flex-direction: column; gap: 2px;">
+                <div style="color: #15803D; font-weight: 700; font-size: 0.84rem;">
+                    Note: This rating app is a prototype and separate from the completed survey dataset used for the assignment results.
+                </div>
+                <div style="color: #166534; font-size: 0.80rem; line-height: 1.4;">
+                    The assignment results are based on 11 survey responses (10 primary participants + 1 robustness check) collected via Google Forms.
+                </div>
+            </div>
         </div>
         """,
         unsafe_allow_html=True

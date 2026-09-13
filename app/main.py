@@ -82,57 +82,88 @@ context = {
     "is_primary": True
 }
 
-# Sidebar: Concise, purposeful navigation & product info
+# Sidebar matching exact reference design
 with st.sidebar:
     st.markdown(
         """
-        <div style="margin-bottom: 15px;">
-            <div style="font-size: 1.15rem; font-weight: 800; color: #0F172A; letter-spacing: -0.02em;">
-                🇮🇳 INDIA IMAGE EVAL
-            </div>
-            <div style="font-size: 0.78rem; color: #64748B; margin-top: 2px;">
-                Text-to-Image Evaluation Platform
+        <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 22px;">
+            <svg width="38" height="38" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5 12C12 8 26 16 35 12V18C26 22 12 14 5 18V12Z" fill="#FF9933"/>
+                <path d="M5 18C12 14 26 22 35 18V24C26 28 12 20 5 24V18Z" fill="#FFFFFF"/>
+                <path d="M5 24C12 20 26 28 35 24V30C26 34 12 26 5 30V24Z" fill="#138808"/>
+                <circle cx="20" cy="21" r="2.6" stroke="#000080" stroke-width="0.8" fill="none"/>
+            </svg>
+            <div>
+                <div style="font-size: 1.05rem; font-weight: 800; color: #0F172A; letter-spacing: -0.01em; line-height: 1.2;">
+                    INDIA IMAGE EVAL
+                </div>
+                <div style="font-size: 0.74rem; color: #64748B; margin-top: 2px;">
+                    Text-to-Image Evaluation Platform
+                </div>
             </div>
         </div>
         """,
         unsafe_allow_html=True
     )
 
-    st.markdown("---")
-    st.markdown("#### 🧭 Navigation")
-
     current_view = st.session_state.get("view", "home")
 
-    if current_view != "home":
-        if st.button("🏠 Return to Homepage", key="sidebar_btn_home", use_container_width=True):
-            st.session_state["view"] = "home"
-            st.rerun()
-
-    if st.button("📊 Assignment Evaluation", key="sidebar_btn_results", use_container_width=True, type="primary" if current_view == "assignment_results" else "secondary"):
-        st.session_state["view"] = "assignment_results"
+    # Nav Home Card Button
+    if st.button("Home", key="sidebar_nav_home", use_container_width=True):
+        st.session_state["view"] = "home"
         st.rerun()
 
-    if st.button("🧪 Try Rating App (Beta)", key="sidebar_btn_beta", use_container_width=True, type="primary" if current_view == "try_rating_app" else "secondary"):
-        st.session_state["view"] = "try_rating_app"
-        st.rerun()
-
-    st.markdown("---")
-    st.markdown("#### ℹ️ Project Scope")
     st.markdown(
         """
-        - **Domain:** Indian E-Commerce
-        - **Use Case:** Catalog & Festive Ads
-        - **Foundation Models:** 3 Evaluated
-        - **Curated Prompts:** 5 Categories
-        - **Evaluator Sample:** 10 Primary ($N=10$) + 1 Robustness ($N=11$)
-        - **Rating Dimensions:** 3 Orthogonal Criteria
-        """
+        <div style="font-size: 0.82rem; color: #64748B; line-height: 1.5; margin: 16px 0 20px 0;">
+            Human evaluation of image generation models for Indian e-commerce.
+        </div>
+        <hr style="border: none; border-top: 1px solid #E2E8F0; margin: 0 0 20px 0;">
+        <div style="
+            background: #F1F5F9;
+            border: 1px solid #E2E8F0;
+            border-radius: 10px;
+            padding: 14px 16px;
+            display: flex;
+            gap: 12px;
+            align-items: flex-start;
+            margin-bottom: 24px;
+        ">
+            <span style="font-size: 1.15rem; line-height: 1;">💡</span>
+            <span style="font-size: 0.8rem; color: #334155; line-height: 1.45;">
+                This project is part of the Josh Talks AI – Product Operations Task.
+            </span>
+        </div>
+        """,
+        unsafe_allow_html=True
     )
 
+    # If currently inside one of the sub-experiences, show a helpful status indicator
+    if current_view == "assignment_results":
+        st.markdown(
+            """
+            <div style="background: #EFF6FF; border: 1px solid #BFDBFE; border-radius: 8px; padding: 10px 12px; margin-bottom: 15px; font-size: 0.8rem; color: #1E40AF; font-weight: 600;">
+                Active View: 📊 Assignment Evaluation
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+    elif current_view == "try_rating_app":
+        st.markdown(
+            """
+            <div style="background: #FFF7ED; border: 1px solid #FED7AA; border-radius: 8px; padding: 10px 12px; margin-bottom: 15px; font-size: 0.8rem; color: #9A3412; font-weight: 600;">
+                Active View: 🧪 Try Rating App (Beta)
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+
+    # Footer at bottom of sidebar
     st.markdown(
         """
-        <div style="font-size: 0.74rem; color: #94A3B8; margin-top: 30px;">
-            Josh Talks AI · Product Operations Task
+        <div style="font-size: 0.76rem; color: #64748B; margin-top: 40px; line-height: 1.5;">
+            <div>Built with ❤️ for India</div>
+            <div style="color: #94A3B8; font-size: 0.72rem;">Josh Talks AI – Product Operations Task</div>
         </div>
         """,
         unsafe_allow_html=True
