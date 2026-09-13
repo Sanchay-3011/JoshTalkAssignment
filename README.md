@@ -2,6 +2,21 @@
 > **A rigorous, human-in-the-loop benchmark of OpenAI and Google foundation models for Indian retail, fashion, and lifestyle imagery.**  
 > *Developed for the Josh Talks AI — Product Operations Hiring Task (July 2026).*
 
+<p align="center">
+  <a href="https://joshtalkassignment-sanchay.streamlit.app/" target="_blank">
+    <img src="https://img.shields.io/badge/🚀_LAUNCH_LIVE_APP-India_Image_Eval-2563EB?style=for-the-badge&logo=streamlit&logoColor=white" alt="Live App" height="38"/>
+  </a>
+  &nbsp;
+  <a href="https://joshtalkassignment-sanchay.streamlit.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Status-Live_%26_Interactive-16A34A?style=for-the-badge" alt="Status" height="38"/>
+  </a>
+</p>
+
+> ### 🌐 **Live Interactive Application**
+> Experience the complete benchmark results, interactive prompt-by-prompt visual comparisons, and sample evaluation prototype in real-time:  
+> 👉 **[https://joshtalkassignment-sanchay.streamlit.app/](https://joshtalkassignment-sanchay.streamlit.app/)**  
+> *(No local installation required — runs directly in your browser)*
+
 ---
 
 ## 📌 Executive Overview
@@ -142,6 +157,8 @@ graph LR
 
 ## 🖥️ Platform Experience: India Image Eval
 
+> 💡 **Interactive Live App**: Explore the full platform, inspect generated images, and test the evaluation prototype directly at **[joshtalkassignment-sanchay.streamlit.app](https://joshtalkassignment-sanchay.streamlit.app/)**!
+
 The evaluation is packaged as an interactive product prototype called **"India Image Eval"**, offering a two-pathway experience:
 
 ```
@@ -260,9 +277,13 @@ JoshTalkAssignment/
 - Python 3.10+ (tested on Python 3.11 / 3.14)
 - Git
 
+### ⚡ Instant Online Access (Zero Installation)
+> Skip local setup and explore the live interactive application immediately in your browser:  
+> 🚀 **[https://joshtalkassignment-sanchay.streamlit.app/](https://joshtalkassignment-sanchay.streamlit.app/)**
+
 ### 1. Clone & Set Up Environment
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Sanchay-3011/JoshTalkAssignment.git
 cd JoshTalkAssignment
 
 # Create virtual environment
@@ -284,12 +305,12 @@ Verify that data ingestion, anonymization, score calculation, and ranking invari
 pytest -v
 ```
 
-### 3. Launch the Evaluation Platform
+### 3. Launch the Evaluation Platform Locally
 Launch the interactive Streamlit dashboard:
 ```bash
 python run.py
 # Or directly via streamlit:
-streamlit run app/main.py
+streamlit run streamlit_app.py
 ```
 Open your browser at `http://localhost:8501`.
 
@@ -311,6 +332,7 @@ python analysis/statistical_analysis.py
 ---
 
 ## 📝 Deliverables Checklist (Josh Talks Assignment Compliance)
+- [x] **Live Deployed Cloud Platform**: Hosted live at [joshtalkassignment-sanchay.streamlit.app](https://joshtalkassignment-sanchay.streamlit.app/).
 - [x] **3 Required Models Evaluated**: OpenAI ChatGPT Images 2.5, Gemini 3.1 Pro, Gemini 3.5 Flash-Lite.
 - [x] **Focused Indian Use Case**: E-commerce lifestyle & catalog photography.
 - [x] **5 Distinct Prompts**: Saree, Steel Tiffin, Namkeen, Kurta, Nehru Jacket.
@@ -320,12 +342,12 @@ python analysis/statistical_analysis.py
 - [x] **100% Consent Verification**: Affirmative consent verified for all 11 raters.
 - [x] **Participant Privacy Protected**: Email addresses and names masked in public dashboard.
 - [x] **3 Evaluation Dimensions**: Prompt Adherence, Visual Quality, Indian Authenticity.
-- [x] **Interactive Leaderboard & Dashboard**: 10-page SaaS platform built with Streamlit & Plotly.
+- [x] **Interactive Leaderboard & Dashboard**: Modern product platform with dark-mode-immune styling.
 - [x] **Observed Strengths & Weaknesses**: Pixel-grounded critique from real image inspection.
 - [x] **Human Evaluation Rating UI Concept**: Interactive prototype included in Page 8.
 - [x] **Scaling Proposal**: Detailed roadmap leveraging Josh Jobs contributor network.
 - [x] **Executive Summary (1 Page)**: Available in `reports/executive_summary.md`.
 - [x] **Main Report**: Available in `reports/main_evaluation_report.md`.
 - [x] **Answers to 5 Reflection Questions**: Fully answered in Section 11 of the report and on Page 10.
-- [x] **Automated Tests**: 7 automated tests passing in `tests/`.
+- [x] **Automated Tests**: 9 automated tests passing in `tests/`.
 - [x] **No Fabricated Data**: 100% derived from uploaded source files.
