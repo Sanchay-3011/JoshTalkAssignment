@@ -189,7 +189,7 @@ Comprehensive report containing the leaderboard, dimension radar/bar charts, pro
 
 #### 3. Try Rating App (Beta Prototype)
 Participant-facing rating prototype with informed consent, progress tracking across all 5 prompts, blinded A/B/C presentation, and isolated storage in `data/beta_responses/`:
-![Try Rating App Completion Screen](docs/images/try_rating_app.png)
+![Try Rating App Interactive Experience](docs/images/try_rating_app.png)
 
 ---
 
